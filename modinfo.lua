@@ -1,7 +1,7 @@
 return {
-  name='Tech Annihilation',
-  description='The New Generation Of War',
-  shortname='TA',
+  name='Star Annihilation',
+  description='The War',
+  shortname='SA',
   version='$VERSION',
   mutator='',
   game='',
