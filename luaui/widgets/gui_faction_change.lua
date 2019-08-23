@@ -50,6 +50,7 @@ local spGetSpectatingState = Spring.GetSpectatingState
 local armcomDefID = UnitDefNames.armcom.id
 local corcomDefID = UnitDefNames.corcom.id
 local tllcomDefID = UnitDefNames.tllcom.id
+local taloncomDefID = UnitDefNames.talon_com.id
 
 local commanderDefID = spGetTeamRulesParam(myTeamID, 'startUnit')
 local amNewbie = (spGetTeamRulesParam(myTeamID, 'isNewbie') == 1)
@@ -102,6 +103,10 @@ function widget:DrawWorld()
 			elseif teamStartUnit == tllcomDefID then
 				  glTexture('LuaUI/Images/tll.png')
 				  glBeginEnd(GL_QUADS, QuadVerts, tsx, spGetGroundHeight(tsx, tsz), tsz, 64)
+                elseif teamStartUnit == taloncomDefID then
+				  glTexture('LuaUI/Images/talon.png')
+				  glBeginEnd(GL_QUADS, QuadVerts, tsx, spGetGroundHeight(tsx, tsz), tsz, 64)
+
 			end
 		end
 	end
@@ -128,9 +133,7 @@ function widget:DrawScreen()
 	else 
 		factionChangeList = glCreateList(FactionChangeList)
 	end
-	glPopMatrix()
-
-	
+	glPopMatrix()	
 end
 
 function FactionChangeList()
@@ -144,6 +147,8 @@ function FactionChangeList()
             glRect(65, 1, 127, 63)
         elseif commanderDefID == tllcomDefID then
             glRect(129, 1, 191, 63)
+        elseif commanderDefID == tllcomDefID then
+            glRect(193, 1, 255, 63)
         end
         
         -- Icons
@@ -154,6 +159,8 @@ function FactionChangeList()
         glTexRect(72, 8, 120, 56)
         glTexture('LuaUI/Images/TLL.png')
         glTexRect(136, 8, 184, 56)
+        glTexture('LuaUI/Images/TALON.png')
+        glTexRect(200, 8, 248, 56)
         glTexture(false)
         
         -- Text
@@ -162,6 +169,7 @@ function FactionChangeList()
             glText('ARM', 32, 0, 12, 'cd')
             glText('CORE', 96, 0, 12, 'cd')
             glText('TLL', 160, 0, 12, 'cd')
+            glText('TALON', 224, 0, 12, 'cd')
         glEndText()
 end
 
@@ -189,6 +197,8 @@ function widget:MousePress(mx, my, mButton)
 				newCom = corcomDefID
 			elseif mx < px + 192 then
 				newCom = tllcomDefID
+                elseif mx < px + 256 then
+				newCom = taloncomDefID
 			end
 			if newCom then
 				commanderDefID = newCom

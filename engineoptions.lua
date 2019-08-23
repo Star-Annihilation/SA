@@ -29,9 +29,9 @@ local options = {
      
   
    {
-       key="ta_others",
-       name="Tech Annihilation - Other Settings",
-       name="Tech Annihilation - Other Settings",
+       key="sa_others",
+       name="Star Annihilation - Other Settings",
+       name="Star Annihilation - Other Settings",
        type="section",
     },
   {
