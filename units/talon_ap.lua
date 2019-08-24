@@ -61,7 +61,7 @@ return {
 			[2] = "talon_recon",
 			[3] = "talon_token",
 			[4] = "talon_shade",
-			[5] = "talon_wyverndrone",
+			[5] = "talon_wyvern",
 			[6] = "talon_drone",			
 		},
 		customparams = {

@@ -9,9 +9,12 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "tllmohogeo_aoplane.dds",
-		buildpic = "talon_mohogeo.png",
+		buildpic = "talon_mohogeo.dds",
 		buildtime = 160000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 -1 0",
+		collisionvolumescales = "60 90 80",
+		collisionvolumetype = "Box",
 		corpse = "tllmohogeo_dead",
 		description = "Hazardous Geothermal Foundry Produces Energy/Metal",
 		energymake = 3600,
@@ -41,7 +44,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "GGGGGGGGGGGGGGGG",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_mohogeo.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			tllmohogeo_dead = {

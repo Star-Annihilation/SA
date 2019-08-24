@@ -38,6 +38,7 @@ return {
 		noautofire = false,
 		nochasecategory = "ALL",
 		objectname = "talon_mex",
+		script = "talon_moho.cob",
 		onoffable = true,
 		radaremitheight = 25,
 		seismicsignature = 0,

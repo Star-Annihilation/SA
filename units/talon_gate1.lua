@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "tlltarg_aoplane.dds",
-		buildpic = "talon_gate1.png",
+		buildpic = "talon_gate1.dds",
 		buildtime = 210000,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
@@ -52,8 +52,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooo",
 		customparams = {
-			buildpic = "talon_gate1.png",
-			faction = "ARM",
+			buildpic = "talon_gate1.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

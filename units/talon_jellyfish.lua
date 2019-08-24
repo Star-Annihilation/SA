@@ -6,14 +6,14 @@ return {
 		buildcostenergy = 14190,
 		buildcostmetal = 1025,
 		builder = false,
-		buildpic = "talon_jellyfish.png",
+		buildpic = "talon_jellyfish.dds",
 		buildtime = 17000,
 		canattack = true,
 		canguard = true,
 		canmove = true,
 		canpatrol = true,
 		canstop = 1,
-		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTVTOL SUB WEAPON SURFACE",
+		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTVTOL SUB WEAPON UNDERWATER",
 		collisionvolumeoffsets = "0.5 0 0",
 		collisionvolumescales = "20 15 64",
 		collisionvolumetype = "box",
@@ -54,8 +54,8 @@ return {
 		upright = true,
 		waterline = 30,
 		customparams = {
-			buildpic = "talon_jellyfish.png",
-			faction = "ARM",
+			buildpic = "talon_jellyfish.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

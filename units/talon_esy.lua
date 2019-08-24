@@ -7,14 +7,14 @@ return {
 		buildinggrounddecalsizex = 18,
 		buildinggrounddecalsizey = 18,
 		buildinggrounddecaltype = "armesy_aoplane.dds",
-		buildpic = "talon_asy.png",
+		buildpic = "talon_asy.dds",
 		buildtime = 85000,
 		canmove = true,
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON PLANT UNDERWATER SURFACE",
-		collisionvolumeoffsets = "0 30 0",
-		collisionvolumescales = "185 128 227",
+		collisionvolumeoffsets = "0 -10 0",
+		collisionvolumescales = "230 130 230",
 		collisionvolumetype = "Box",
 		corpse = "dead",
 		description = "Produces T3 Ships, water depth 86 or more required",
@@ -51,11 +51,12 @@ return {
 		yardmap = "wCCCCCCCCCCCCCwcCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCccCCCCCCCCCCCCCc",
 		buildoptions = {
 			[1] = "talon_frigate",
-			[1] = "talon_dread",
+			[2] = "talon_dread",
 
 		},
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_asy.dds",
+			faction = "TALON",
 			providetech = "T3 Factory",
 		},
 		featuredefs = {

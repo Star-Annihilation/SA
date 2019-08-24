@@ -60,7 +60,6 @@ return {
 			[3] = "talon_salamander",
 			[4] = "talon_cataphract",
 			[5] = "talon_basilisk",
-			[6] = "",
 		},
 		customparams = {
 			buildpic = "talon_hp.dds",

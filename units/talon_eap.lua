@@ -8,14 +8,14 @@ return {
 		buildinggrounddecalsizex = 9,
 		buildinggrounddecalsizey = 7,
 		buildinggrounddecaltype = "armevp_aoplane.dds",
-		buildpic = "talon_eap.png",
+		buildpic = "talon_eap.dds",
 		buildtime = 70000,
 		canmove = true,
 		canpatrol = true,
 		canstop = 1,
 		category = "LEVEL2 ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON PLANT SURFACE",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "125 26 107",
+		collisionvolumescales = "160 50 120",
 		collisionvolumetype = "box",
 		corpse = "dead",
 		description = "Produces T3 Air",
@@ -54,12 +54,10 @@ return {
 			[1] = "talon_hornet",
 			[2] = "talon_pampa",
 			[3] = "talon_handgod",
-
-
-
 		},
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_eap.dds",
+			faction = "TALON",
 			providetech = "T3 Factory",
 		},
 		featuredefs = {

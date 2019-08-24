@@ -10,12 +10,12 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "armckfus_aoplane.dds",
-		buildpic = "talon_ckfus.png",
+		buildpic = "talon_ckfus.dds",
 		buildtime = 55000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		cloakcost = 75,
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "98 59 62",
+		collisionvolumescales = "98 75 98",
 		collisionvolumetest = 1,
 		collisionvolumetype = "Box",
 		corpse = "dead",
@@ -51,8 +51,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooo oooooo oooooo oooooo oooooo oooooo",
 		customparams = {
-			buildpic = "talon_ckfus.png",
-			faction = "ARM",
+			buildpic = "talon_ckfus.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

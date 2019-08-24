@@ -2,7 +2,7 @@ return {
 	talon_dutchman = {
 		acceleration = 0.015,
 		brakerate = 0.15,
-		buildcostenergy = 135470,
+		buildcostenergy = 82470,
 		buildcostmetal = 6125,
 		builder = false,
 		buildpic = "talon_dutchman.png",
@@ -15,6 +15,9 @@ return {
 		canstop = 1,
 		cantbetransported = true,
 		category = "ALL HOVER HUGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "60 80 145",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Heavy Battle Gravitank",

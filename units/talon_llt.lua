@@ -132,7 +132,7 @@ return {
 				impulseboost = 0,
 				impulsefactor = 0,
 				laserflaresize = 10,
-				name = "LightLaser",
+				name = "Talon Gun",
 				noselfdamage = true,
 				range = 460,
 				reloadtime = 0.3,

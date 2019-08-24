@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 3040,
 		buildcostmetal = 115,
 		builder = false,
-		buildpic = "talon_anonymous.png",
+		buildpic = "talon_anonymous.dds",
 		buildtime = 6500,
 		canattack = true,
 		canguard = true,
@@ -14,8 +14,8 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTVTOL SMALL WEAPON SURFACE",
-		collisionvolumeoffsets = "0 -2 0",
-		collisionvolumescales = "22 22 64",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "31 31 82",
 		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -52,8 +52,8 @@ return {
 		turnrate = 540,
 		unitname = "talon_anonymous",
 		customparams = {
-			buildpic = "talon_anonymous.png",
-			faction = "ARM",
+			buildpic = "talon_anonymous.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

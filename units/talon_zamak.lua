@@ -7,7 +7,7 @@ return {
 		buildcostenergy = 109000,
 		buildcostmetal = 3890,
 		builder = false,
-		buildpic = "talon_zamak.png",
+		buildpic = "talon_zamak.dds",
 		buildtime = 48000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "45 45 105",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "High energy Battleship",
@@ -50,7 +53,8 @@ return {
 		unitname = "talon_zamak",
 		waterline = 2,
 		customparams = {
-			faction = "TLL",
+			buildpic = "talon_zamak.dds",	
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

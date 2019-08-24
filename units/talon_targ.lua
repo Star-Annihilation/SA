@@ -9,11 +9,14 @@ return {
 		buildinggrounddecalsizex = 8,
 		buildinggrounddecalsizey = 8,
 		buildinggrounddecaltype = "tlltarg_aoplane.dds",
-		buildpic = "talon_targ.png",
+		buildpic = "talon_targ.dds",
 		buildtime = 82000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 1 0",
+		collisionvolumescales = "55 65 55",
+		collisionvolumetest = 1,
+		collisionvolumetype = "CylY",
 		corpse = "dead",
-		damagemodifier = 0.75,
 		description = "Automatic Targeting, Very Long Range Radar/Sonar",
 		downloadable = 1,
 		energyuse = 1650,
@@ -43,7 +46,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooo ooooo ooooo ooooo ooooo",
 		customparams = {
-			faction = "TLL",
+			buildpic = "talon_targ.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

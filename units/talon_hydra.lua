@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 8850,
 		buildcostmetal = 650,
 		builder = false,
-		buildpic = "talon_hydra.png",
+		buildpic = "talon_hydra.dds",
 		buildtime = 12000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HOVER LARGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "38 30 60",
+		collisionvolumetype = "Box",
 		corpse = "corsent_dead",
 		defaultmissiontype = "Standby",
 		description = "Flak Gravitank",
@@ -52,7 +55,8 @@ return {
 		unitname = "talon_hydra",
 		upright = true,
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_hydra.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			corsent_dead = {

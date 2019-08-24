@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 1750,
 		buildcostmetal = 55,
 		builder = false,
-		buildpic = "talon_wyvern.png",
+		buildpic = "talon_wyvern.dds",
 		buildtime = 3600,
 		canfly = true,
 		canguard = true,
@@ -55,8 +55,8 @@ return {
 		turnrate = 550,
 		unitname = "talon_wyvern",
 		customparams = {
-			buildpic = "talon_wyvern.png",
-			faction = "ARM",
+			buildpic = "talon_wyvern.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

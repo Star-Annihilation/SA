@@ -11,9 +11,12 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "cormmkr_aoplane.dds",
-		buildpic = "talon_amaker.png",
+		buildpic = "talon_amaker.dds",
 		buildtime = 50000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "60 60 90",
+		collisionvolumetype = "box",
 		corpse = "dead",
 		damagemodifier = 0.3,
 		description = "Converts upto 1200 Energy to Metal",
@@ -44,8 +47,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooo",
 		customparams = {
-			buildpic = "talon_amaker.png",
-			faction = "CORE",
+			buildpic = "talon_amaker.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

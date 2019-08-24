@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 1600,
 		buildcostmetal = 100,
 		builder = false,
-		buildpic = "talon_charon.png",
+		buildpic = "talon_charon.dds",
 		buildtime = 2000,
 		canattack = true,
 		canguard = true,
@@ -53,8 +53,8 @@ return {
 		unitname = "talon_charon",
 		waterline = 1,
 		customparams = {
-			buildpic = "talon_charon.png",
-			faction = "ARM",
+			buildpic = "talon_charon.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

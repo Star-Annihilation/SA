@@ -6,7 +6,7 @@ return {
 		brakerate = 0.07,
 		buildcostenergy = 62850,
 		buildcostmetal = 690,
-		buildpic = "talon_hornet.png",
+		buildpic = "talon_hornet.dds",
 		buildtime = 18500,
 		canattack = true,
 		canfly = true,
@@ -49,7 +49,8 @@ return {
 		unitname = "talon_hornet",
 		unitrestricted = 300,
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_hornet.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

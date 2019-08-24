@@ -69,11 +69,9 @@ return {
 			[14] = "talon_drag",
 			[15] = "talon_llt",
 			[16] = "talon_rl",
-			--[17] = "talon_armorgate",
 			[18] = "talon_hlt",	
 			[19] = "talon_painless",	
 			[20] = "talon_sy",
-			--[21] = "talon_gen",
 		},
 		customparams = {
 			buildpic = "talon_ca.dds",

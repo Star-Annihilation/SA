@@ -1,12 +1,12 @@
 return {
 	talon_mirage = {
-		acceleration = 0.06,
+		acceleration = 0.1,
 		activatewhenbuilt = true,
 		brakerate = 0.18,
 		buildcostenergy = 2485,
 		buildcostmetal = 190,
 		builder = false,
-		buildpic = "talon_mirage.png",
+		buildpic = "talon_mirage.dds",
 		buildtime = 6156,
 		canguard = true,
 		canhover = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HOVER MEDIUM MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "30 25 40",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Radar-Jamming Gravitank",
@@ -53,7 +56,8 @@ return {
 		turnrate = 260,
 		unitname = "talon_mirage",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_mirage.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

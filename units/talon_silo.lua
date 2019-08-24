@@ -8,7 +8,7 @@ return {
 		buildinggrounddecalsizex = 8,
 		buildinggrounddecalsizey = 8,
 		buildinggrounddecaltype = "tllsilo_aoplane.dds",
-		buildpic = "talon_silo.png",
+		buildpic = "talon_silo.dds",
 		buildtime = 220000,
 		canattack = true,
 		canstop = 1,
@@ -43,7 +43,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooo oooooooo oooooooo oooooooo oooooooo",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_silo.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

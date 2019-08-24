@@ -10,7 +10,7 @@ return {
 		buildinggrounddecalsizex = 4,
 		buildinggrounddecalsizey = 4,
 		buildinggrounddecaltype = "armhlt_aoplane.dds",
-		buildpic = "talon_vhlt.png",
+		buildpic = "talon_vhlt.dds",
 		buildtime = 24000,
 		canattack = true,
 		canstop = 1,
@@ -53,8 +53,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooo",
 		customparams = {
-			buildpic = "talon_vhlt.png",
-			faction = "ARM",
+			buildpic = "talon_vhlt.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

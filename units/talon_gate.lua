@@ -11,12 +11,12 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "tlltarg_aoplane.dds",
-		buildpic = "talon_gate.png",
+		buildpic = "talon_gate.dds",
 		buildtime = 51000,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
-		collisionvolumeoffsets = "0 -4 1",
-		collisionvolumescales = "60 37 60",
+		collisionvolumeoffsets = "0 -4 0",
+		collisionvolumescales = "68 50 68",
 		collisionvolumetype = "CylY",
 		corpse = "dead",
 		description = "Plasma Deflector",
@@ -51,8 +51,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooo",
 		customparams = {
-			buildpic = "talon_gate.png",
-			faction = "ARM",
+			buildpic = "talon_gate.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

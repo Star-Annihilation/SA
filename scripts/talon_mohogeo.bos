@@ -3,7 +3,7 @@
 #include "sfxtype.h"
 #include "exptype.h"
 
-piece  GP, base, nano, tank, steam1, steam2, pipe1;
+piece  base, body, nano, tank, steam1, steam2, pipe1;
 
 static-var  Static_Var_1, Static_Var_2;
 

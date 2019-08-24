@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 8,
 		buildinggrounddecalsizey = 8,
 		buildinggrounddecaltype = "armmoho_aoplane.dds",
-		buildpic = "talon_moho.png",
+		buildpic = "talon_moho.dds",
 		buildtime = 14938,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		corpse = "dead",
@@ -47,8 +47,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooooooooooooooooooooo",
 		customparams = {
-			buildpic = "talon_moho.png",
-			faction = "ARM",
+			buildpic = "talon_moho.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

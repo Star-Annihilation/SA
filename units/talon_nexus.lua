@@ -8,7 +8,7 @@ return {
 		buildcostenergy = 189000,
 		buildcostmetal = 3150,
 		builder = true,
-		buildpic = "talon_nexus.png",
+		buildpic = "talon_nexus.dds",
 		buildtime = 160000,
 		canassist = false,
 		canguard = true,
@@ -16,9 +16,10 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTVTOL WEAPON SURFACE",
-		collisionvolumeoffsets = "-1 -7 4",
-		collisionvolumescalesm = "64 64 155",
-		collisionvolumetype = "CylZ",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "90 110 160",
+		collisionvolumetest = 1,
+		collisionvolumetype = "Ell",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Aircraft Carrier with long range Anti-Nuke",
@@ -62,8 +63,8 @@ return {
 		unitname = "talon_nexus",
 		workertime = 4000,
 		customparams = {
-			buildpic = "talon_nexus.png",
-			faction = "ARM",
+			buildpic = "talon_nexus.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

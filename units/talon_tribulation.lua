@@ -1,12 +1,12 @@
 return {
 	talon_tribulation = {
-		acceleration = 0.0198,
+		acceleration = 0.015,
 		antiweapons = 1,
-		brakerate = 0.1122,
+		brakerate = 0.3,
 		buildcostenergy = 113000,
 		buildcostmetal = 1475,
 		builder = false,
-		buildpic = "talon_tribulation.png",
+		buildpic = "talon_tribulation.dds",
 		buildtime = 90000,
 		canguard = true,
 		canmove = true,
@@ -14,7 +14,7 @@ return {
 		canstop = 1,
 		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "38 38 85",
+		collisionvolumescales = "42 40 102",
 		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -57,11 +57,11 @@ return {
 		turninplace = 0,
 		turninplaceanglelimit = 140,
 		turninplacespeedlimit = 0.93522,
-		turnrate = 520.29999,
+		turnrate = 250,
 		unitname = "talon_tribulation",
 		customparams = {
-			buildpic = "talon_tribulation.png",
-			faction = "ARM",
+			buildpic = "talon_tribulation.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

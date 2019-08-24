@@ -110,6 +110,10 @@ MoveRate2()
 
 Create()
 {
+	turn winga1 to z-axis <60.> now;
+	turn winga2 to z-axis <-120.> now;
+	turn wingb1 to z-axis <-60.> now;
+	turn wingb2 to z-axis <120.> now;
 	Static_Var_1 = 0;
 	call-script InitState();
 	start-script SmokeUnit();
@@ -147,8 +151,8 @@ AimSecondary(heading, pitch)
 {
 	signal 4;
 	set-signal-mask 4;
-	turn turret1 to y-axis <180.000000> + heading speed <100.000000>;
-	turn sleeve1 to x-axis <0.000000> - pitch speed <100.000000> ;
+	turn turret1 to y-axis <180.000000> + heading speed <150.000000>;
+	turn sleeve1 to x-axis <0.000000> - pitch speed <150.000000> ;
 	wait-for-turn turret1 around y-axis;
 	wait-for-turn sleeve1 around x-axis;
 	start-script RestoreAfterDelay();
@@ -158,8 +162,8 @@ AimTertiary(heading, pitch)
 {
 	signal 8;
 	set-signal-mask 8;
-	turn turret2 to y-axis <180.000000> + heading speed <100.000000>;
-	turn sleeve2 to x-axis <0.000000> - pitch speed <100.000000> ;
+	turn turret2 to y-axis <180.000000> + heading speed <150.000000>;
+	turn sleeve2 to x-axis <0.000000> - pitch speed <150.000000> ;
 	wait-for-turn turret2 around y-axis;
 	wait-for-turn sleeve2 around x-axis;
 

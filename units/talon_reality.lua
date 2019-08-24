@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 1560,
 		buildcostmetal = 95,
 		builder = false,
-		buildpic = "talon_reality.png",
+		buildpic = "talon_reality.dds",
 		buildtime = 6600,
 		canattack = false,
 		canguard = true,
@@ -15,7 +15,10 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HOVER MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SMALL SURFACE",
-		corpse = "armhplasma_dead",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "30 25 40",
+		collisionvolumetype = "Box",
+		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Battlefield Intelligence Gravitank Radar and Sonar",
 		downloadable = 1,
@@ -56,21 +59,22 @@ return {
 		unitname = "talon_reality",
 		upright = true,
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_reality.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
-			armhplasma_dead = {
+			dead = {
 				blocking = true,
 				damage = 700,
 				description = "Reality Wreckage",
-				featuredead = "armhplasma_heap",
+				featuredead = "heap",
 				footprintx = 3,
 				footprintz = 3,
 				metal = 72,
-				object = "armhplasma_dead",
+				object = "talon_reality_dead",
 				reclaimable = true,
 			},
-			armhplasma_heap = {
+			heap = {
 				blocking = false,
 				damage = 875,
 				description = "Reality Debris",

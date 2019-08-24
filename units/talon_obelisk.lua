@@ -11,12 +11,12 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "tlltarg_aoplane.dds",
-		buildpic = "talon_obelisk.png",
+		buildpic = "talon_obelisk.dds",
 		buildtime = 51000,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		collisionvolumeoffsets = "0 -4 1",
-		collisionvolumescales = "60 37 60",
+		collisionvolumescales = "60 150 60",
 		collisionvolumetype = "CylY",
 		corpse = "heap",
 		description = "Universal Deflector",
@@ -51,8 +51,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooo",
 		customparams = {
-			buildpic = "talon_obelisk.png",
-			faction = "ARM",
+			buildpic = "talon_obelisk.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			heap = {

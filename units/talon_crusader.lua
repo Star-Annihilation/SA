@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 8900,
 		buildcostmetal = 405,
 		builder = false,
-		buildpic = "talon_crusader.png",
+		buildpic = "talon_crusader.dds",
 		buildtime = 10000,
 		canattack = true,
 		canguard = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "36 38 38",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Assault Kbot",
@@ -49,8 +52,8 @@ return {
 		unitname = "talon_crusader",
 		upright = false,
 		customparams = {
-			buildpic = "talon_crusader.png",
-			faction = "ARM",
+			buildpic = "talon_crusader.DDS",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 200150,
 		buildcostmetal = 12800,
 		builder = false,
-		buildpic = "talon_thanos.png",
+		buildpic = "talon_thanos.dds",
 		buildtime = 175000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canstop = 1,
 		cantbetransported = true,
 		category = "ALL HOVER HUGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -10 0",
+		collisionvolumescales = "65 65 90",
+		collisionvolumetype = "box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Anti T3/T4 Gravitytank",
@@ -27,7 +30,7 @@ return {
 		losemitheight = 50,
 		maneuverleashlength = 640,
 		mass = 20000,
-		maxdamage = 24500,
+		maxdamage = 34500,
 		maxslope = 16,
 		maxvelocity = 1.5,
 		maxwaterdepth = 0,
@@ -50,7 +53,8 @@ return {
 		unitname = "talon_thanos",
 		waterline = 7,
 		customparams = {
-			faction = "CORE",
+			buildpic = "talon_thanos.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 8,
 		buildinggrounddecalsizey = 8,
 		buildinggrounddecaltype = "corint_aoplane.dds",
-		buildpic = "talon_lrpt.png",
+		buildpic = "talon_lrpt.dds",
 		buildtime = 90000,
 		canattack = true,
 		canstop = 1,
@@ -52,9 +52,9 @@ return {
 		usepiececollisionvolumes = 1,
 		yardmap = "ooooooooooooooooooooooooo",
 		customparams = {
-			buildpic = "talon_lrpt.png",
+			buildpic = "talon_lrpt.dds",
 			canareaattack = 1,
-			faction = "CORE",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -69,7 +69,7 @@ return {
 				footprintx = 3,
 				footprintz = 3,
 				metal = 3225,
-				object = "talon_lrpt_DEAD",
+				object = "talon_lrpt_dead",
 				reclaimable = true,
 			},
 			heap = {

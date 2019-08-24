@@ -15,9 +15,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		cantbetransported = true,
-		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTVTOL SUB WEAPON SURFACE",
+		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTVTOL SUB WEAPON UNDERWATER",
 		collisionvolumeoffsets = "0 -10 0",
-		collisionvolumescales = "31 31 156",
+		collisionvolumescales = "65 65 160",
 		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -33,7 +33,7 @@ return {
 		idletime = 1800,
 		losemitheight = 52,
 		maneuverleashlength = 640,
-		mass = 15500,
+		mass = 11500,
 		maxdamage = 3250,
 		maxvelocity = 1.7,
 		minwaterdepth = 65,
@@ -59,7 +59,8 @@ return {
 		unitname = "talon_frigate",
 		waterline = 45,
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_frigate.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

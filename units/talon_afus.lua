@@ -11,11 +11,11 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "armfus_aoplane.dds",
-		buildpic = "talon_afus.png",
+		buildpic = "talon_afus.dds",
 		buildtime = 185000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
-		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "98 59 62",
+		collisionvolumeoffsets = "0 -1 0",
+		collisionvolumescales = "100 115 90",
 		collisionvolumetest = 1,
 		collisionvolumetype = "Box",
 		corpse = "dead",
@@ -51,8 +51,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooo ooooooo ooooooo ooooooo oooooooo oooooooo",
 		customparams = {
-			buildpic = "talon_afus.png",
-			faction = "ARM",
+			buildpic = "talon_afus.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

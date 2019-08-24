@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 129000,
 		buildcostmetal = 5390,
 		builder = false,
-		buildpic = "talon_imperator.png",
+		buildpic = "talon_imperator.dds",
 		buildtime = 68000,
 		canattack = true,
 		canguard = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "50 55 130",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Battleship",
@@ -48,7 +51,8 @@ return {
 		unitname = "talon_imperator",
 		waterline = 8,
 		customparams = {
-			faction = "TLL",
+			buildpic = "talon_imperator.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

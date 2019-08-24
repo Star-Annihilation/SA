@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 4,
 		buildinggrounddecalsizey = 4,
 		buildinggrounddecaltype = "armflak_aoplane.dds",
-		buildpic = "talon_popcorn.png",
+		buildpic = "talon_popcorn.dds",
 		buildtime = 25000,
 		canattack = true,
 		canstop = 1,
@@ -52,8 +52,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oo oo",
 		customparams = {
-			buildpic = "talon_popcorn.png",
-			faction = "ARM",
+			buildpic = "talon_popcorn.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

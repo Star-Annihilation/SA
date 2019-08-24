@@ -6,7 +6,7 @@ return {
 		buildcostmetal = 1915,
 		builddistance = 312,
 		builder = true,
-		buildpic = "talon_acs.png",
+		buildpic = "talon_acs.dds",
 		buildtime = 20000,
 		canguard = true,
 		canmove = true,
@@ -14,6 +14,9 @@ return {
 		canreclamate = 1,
 		canstop = 1,
 		category = "ALL CONSTR LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "31 31 82",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Tech Level 2",
@@ -67,7 +70,7 @@ return {
 			[12] = "talon_asonar",
 		},
 		customparams = {
-			faction = "TLL",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

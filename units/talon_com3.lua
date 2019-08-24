@@ -9,7 +9,7 @@ return {
 		buildcostmetal = 3250,
 		builddistance = 152,
 		builder = true,
-		buildpic = "talon_com.png",
+		buildpic = "talon_com.dds",
 		buildtime = 300000,
 		canattack = true,
 		cancapture = true,
@@ -23,7 +23,7 @@ return {
 		cloakcost = 100,
 		cloakcostmoving = 800,
 		collisionvolumeoffsets = "0 -1 0",
-		collisionvolumescales = "36 44 26",
+		collisionvolumescales = "37 45 27",
 		collisionvolumetest = 1,
 		collisionvolumetype = "Ell",
 		commander = true,
@@ -90,7 +90,8 @@ return {
 			[10] ="talon_vp",
 			[11] ="talon_ap",
 			[12] = "talon_drag",
-			[13] = "talon_llt",
+			[13] = "talon_llt1",
+			[13] = "talon_hlt",
 			[14] = "talon_rl",
 			[15] = "talon_tide",
 			[16] = "talon_uwms",
@@ -103,8 +104,8 @@ return {
 			[23] = "talon_tl",
 		},
 		customparams = {
-			buildpic = "talcom.png",
-			faction = "ARM",
+			buildpic = "talcom.dds",
+			faction = "TALON",
 			iscommander = true,
 		},
 		featuredefs = {
@@ -198,7 +199,7 @@ return {
 			},
 		},
 		weapondefs = {
-			tal_disintegrator = {
+			tal_disintegrator1 = {
 				areaofeffect = 36,
 				avoidfeature = false,
 				avoidfriendly = false,
@@ -407,7 +408,7 @@ return {
 				onlytargetcategory = "NOTSUB",
 			},
 			[3] = {
-				def = "TAL_DISINTEGRATOR",
+				def = "TAL_DISINTEGRATOR1",
 			},
 			[4] = {
 				def = "TAL_SEALASER",

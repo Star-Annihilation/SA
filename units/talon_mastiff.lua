@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 8000,
 		buildcostmetal = 385,
 		builder = false,
-		buildpic = "talon_mastiff.png",
+		buildpic = "talon_mastiff.dss",
 		buildtime = 11000,
 		canattack = true,
 		canguard = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "33 36 35",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Artillery bomb Kbot",
@@ -49,8 +52,8 @@ return {
 		unitname = "talon_mastiff",
 		upright = false,
 		customparams = {
-			buildpic = "talon_mastiff.png",
-			faction = "ARM",
+			buildpic = "talon_mastiff.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

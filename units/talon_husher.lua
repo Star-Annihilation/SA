@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 2050,
 		buildcostmetal = 85,
 		builder = false,
-		buildpic = "talon_husher.png",
+		buildpic = "talon_husher.dds",
 		buildtime = 5000,
 		canattack = false,
 		canguard = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL SMALL WEAPON SURFACE UNDERWATER",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "35 30 30",
+		collisionvolumetype = "CylY",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Radar Jammer Kbot",
@@ -51,8 +54,8 @@ return {
 		turnrate = 1045,
 		unitname = "talon_husher",
 		customparams = {
-			buildpic = "talon_husher.png",
-			faction = "ARM",
+			buildpic = "talon_husher.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
