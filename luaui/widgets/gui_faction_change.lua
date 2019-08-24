@@ -56,7 +56,7 @@ local commanderDefID = spGetTeamRulesParam(myTeamID, 'startUnit')
 local amNewbie = (spGetTeamRulesParam(myTeamID, 'isNewbie') == 1)
 
 local factionChangeList
-local px, py = wWidth - 198, 0.63*wHeight
+local px, py = wWidth - 262, 0.63*wHeight
 
 --------------------------------------------------------------------------------
 -- Funcs
@@ -106,7 +106,6 @@ function widget:DrawWorld()
                 elseif teamStartUnit == taloncomDefID then
 				  glTexture('LuaUI/Images/talon.png')
 				  glBeginEnd(GL_QUADS, QuadVerts, tsx, spGetGroundHeight(tsx, tsz), tsz, 64)
-
 			end
 		end
 	end
@@ -218,7 +217,7 @@ function widget:MousePress(mx, my, mButton)
 				return true
 			end
 			
-		elseif (mButton == 2 or mButton == 3) and mx < px + 128 then
+		elseif (mButton == 2 or mButton == 3) and mx < px + 192 then
 			-- Dragging
 			return true
 		end
