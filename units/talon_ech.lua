@@ -6,7 +6,7 @@ return {
 		buildcostmetal = 15560,
 		builddistance = 350,
 		builder = true,
-		buildpic = "talon_ech.png",
+		buildpic = "talon_ech.dds",
 		buildtime = 300000,
 		canguard = true,
 		canhover = true,
@@ -15,6 +15,9 @@ return {
 		canreclamate = 1,
 		canstop = 1,
 		category = "ALL CONSTR HOVER LARGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "60 60 100",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Tech Level 3",
@@ -58,9 +61,11 @@ return {
 			[2] = "talon_metalmakerlvl2",
 			[3] = "talon_gate1",
 			[4] = "talon_covertopscentre",			
+			[5] = "talon_veloute",			
 		},
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_ech.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

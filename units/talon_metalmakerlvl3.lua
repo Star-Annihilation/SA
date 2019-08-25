@@ -8,7 +8,7 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "ametalmakerlvl3_aoplane.dds",
-		buildpic = "talon_metalmakerlvl2.png",
+		buildpic = "talon_metalmakerlvl3.dds",
 		buildtime = 600000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		corpse = "dead",
@@ -37,7 +37,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo oooooooo",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_metalmakerlvl3.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

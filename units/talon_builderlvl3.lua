@@ -7,7 +7,7 @@ return {
 		buildcostmetal = 23150,
 		builddistance = 400,
 		builder = true,
-		buildpic = "talon_builderlvl3.png",
+		buildpic = "talon_builderlvl3.dds",
 		buildtime = 340000,
 		canfly = true,
 		canguard = true,
@@ -53,9 +53,9 @@ return {
 		buildoptions = {
 			[1] = "talon_sfus",
 			[2] = "talon_mas",
-			[3] = "talon_metalmakerlvl2",
+			[3] = "talon_metalmakerlvl3",
 			[4] = "talon_talpax",
-			[5] = "talon_bulwark",
+			--[5] = "talon_bulwark",
 			[6] = "talon_veloute",
 			[7] = "talon_gate1",
 			[8] = "talon_requiem",
@@ -64,7 +64,7 @@ return {
 		},
 		customparams = {
 			buildpic = "talon_builderlvl3.dds",
-			faction = "ARM",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
