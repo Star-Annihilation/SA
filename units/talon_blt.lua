@@ -11,11 +11,14 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "armanni_aoplane.dds",
-		buildpic = "talon_blt.png",
+		buildpic = "talon_blt.dds",
 		buildtime = 52071,
 		canattack = true,
 		canstop = 1,
 		category = "ALL NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "60 120 60",
+		collisionvolumetype = "CylY",
 		corpse = "dead",
 		damagemodifier = 0.25,
 		defaultmissiontype = "GUARD_NOMOVE",
@@ -52,8 +55,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooo oooo oooo oooo",
 		customparams = {
-			buildpic = "talon_blt.png",
-			faction = "ARM",
+			buildpic = "talon_blt.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

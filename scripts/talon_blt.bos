@@ -14,6 +14,7 @@ SmokeUnit(healthpercent, sleeptime, smoketype)
 	{
 		sleep 400;
 	}
+	spin turret around y-axis speed <-25.000000>;
 	while( TRUE )
 	{
 		healthpercent = get HEALTH;
@@ -47,26 +48,8 @@ Create()
 {
 	hide flare1;
 	hide flare2;
-	dont-shade base;
-	dont-shade body;
-	dont-cache turret;
-	dont-cache sleeve;
-	dont-cache barrel1;
-	dont-cache barrel2;
-	dont-cache flare1;
-	dont-cache flare2;
-	dont-shade turret;
-	dont-shade sleeve;
-	dont-shade barrel1;
-	dont-shade barrel2;
-	dont-shade flare1;
-	dont-shade flare2;
 	Static_Var_1 = 0;
-	start-script SmokeUnit();
-	
-	//turn sleeve to x-axis <0.> speed <33.>;
-	spin turret around y-axis speed <-25.000000>;
-	
+	start-script SmokeUnit();	
 }
 
 AimPrimary(heading, pitch)

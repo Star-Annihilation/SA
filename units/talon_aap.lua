@@ -9,12 +9,15 @@ return {
 		buildinggrounddecalsizex = 9,
 		buildinggrounddecalsizey = 7,
 		buildinggrounddecaltype = "armaap_aoplane.dds",
-		buildpic = "talon_aap.png",
+		buildpic = "talon_aap.dds",
 		buildtime = 42000,
 		canmove = true,
 		canpatrol = true,
 		canstop = 1,
 		category = "LEVEL1 ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON PLANT SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "145 100 145",
+		collisionvolumetype = "CylY",
 		corpse = "dead1",
 		description = "Produces T2 Aircraft",
 		energystorage = 200,
@@ -64,8 +67,8 @@ return {
 
 		},
 		customparams = {
-			buildpic = "talon_aap.png",
-			faction = "ARM",
+			buildpic = "talon_aap.dds",
+			faction = "TALON",
 			providetech = "T2 Factory",
 		},
 		featuredefs = {

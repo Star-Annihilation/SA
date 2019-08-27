@@ -6,7 +6,7 @@ return {
 		buildcostmetal = 225,
 		builddistance = 136,
 		builder = true,
-		buildpic = "talon_ev.png",
+		buildpic = "talon_ev.dds",
 		buildtime = 6800,
 		canguard = true,
 		canmove = true,
@@ -14,8 +14,8 @@ return {
 		canreclamate = 1,
 		canstop = 1,
 		category = "ALL CONSTR MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
-		collisionvolumeoffsets = "0 0 2",
-		collisionvolumescales = "33 17 30",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "30 17 33",
 		collisionvolumetype = "CylY",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -85,8 +85,8 @@ return {
 			[21] = "talon_ogopogo",
 		},
 		customparams = {
-			buildpic = "talon_ev.png",
-			faction = "arm",
+			buildpic = "talon_ev.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

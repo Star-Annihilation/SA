@@ -1,7 +1,6 @@
 return {
 	talon_slinger = {
 		acceleration = 0,
-		activatewhenbuilt = true,
 		brakerate = 0,
 		buildangle = 8192,
 		buildcostenergy = 29450,
@@ -10,14 +9,16 @@ return {
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 5,
 		buildinggrounddecalsizey = 5,
-		buildinggrounddecaltype = "armamb_aoplane.dds",
-		buildpic = "talon_slinger.png",
+		buildinggrounddecaltype = "talon_aoplane.dds",
+		buildpic = "talon_slinger.dds",
 		buildtime = 30000,
 		canattack = true,
 		canstop = 1,
 		category = "ALL NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -4 0",
+		collisionvolumescales = "50 40 50",
+		collisionvolumetype = "CylY",
 		corpse = "dead",
-		damagemodifier = 0.25,
 		defaultmissiontype = "GUARD_NOMOVE",
 		description = "Very Heavy Plasma Cannon",
 		digger = 1,
@@ -26,7 +27,6 @@ return {
 		firestandorders = 1,
 		footprintx = 3,
 		footprintz = 3,
-		hightrajectory = 2,
 		icontype = "building",
 		idleautoheal = 5,
 		idletime = 1800,
@@ -54,8 +54,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooooo",
 		customparams = {
-			buildpic = "talon_slinger.png",
-			faction = "ARM",
+			buildpic = "talon_slinger.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -86,6 +86,9 @@ return {
 			},
 		},
 		sfxtypes = {
+			explosiongenerators = {
+				[1] = "custom:mediumflare",
+			},
 			pieceexplosiongenerators = {
 				[1] = "piecetrail0",
 				[2] = "piecetrail1",

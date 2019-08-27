@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 12950,
 		buildcostmetal = 345,
 		builder = false,
-		buildpic = "talon_vulture.png",
+		buildpic = "talon_vulture.dds",
 		buildtime = 24000,
 		canattack = true,
 		canfly = true,
@@ -49,8 +49,8 @@ return {
 		turnrate = 750,
 		unitname = "talon_vulture",
 		customparams = {
-			buildpic = "talon_vulture.png",
-			faction = "ARM",
+			buildpic = "talon_vulture.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			explosiongenerators = {
@@ -100,7 +100,7 @@ return {
 				impulseboost = 0,
 				impulsefactor = 0,
 				laserflaresize = 10,
-				name = "LightLaser",
+				name = "Talon Gun",
 				noselfdamage = true,
 				range = 530,
 				reloadtime = 0.3,

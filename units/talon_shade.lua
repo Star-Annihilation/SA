@@ -8,7 +8,7 @@ return {
 		buildcostenergy = 5720,
 		buildcostmetal = 145,
 		builder = false,
-		buildpic = "talon_shade.png",
+		buildpic = "talon_shade.dds",
 		buildtime = 5000,
 		canattack = true,
 		canfly = true,
@@ -35,7 +35,7 @@ return {
 		maxvelocity = 8.6,
 		maxwaterdepth = 0,
 		mobilestandorders = 1,
-		name = "Thunder",
+		name = "Shade",
 		noautofire = true,
 		nochasecategory = "SUB VTOL",
 		objectname = "talon_shade",
@@ -50,8 +50,8 @@ return {
 		turnrate = 845,
 		unitname = "talon_shade",
 		customparams = {
-			buildpic = "talon_shade.png",
-			faction = "ARM",
+			buildpic = "talon_shade.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

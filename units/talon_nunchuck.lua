@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 12490,
 		buildcostmetal = 955,
 		builder = false,
-		buildpic = "talon_nunchuck.png",
+		buildpic = "talon_nunchuck.dds",
 		buildtime = 15000,
 		canattack = true,
 		canguard = true,
@@ -14,8 +14,8 @@ return {
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		corpse = "dead",
-		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "30 30 40",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "35 35 60",
 		collisionvolumetype = "Box",
 		defaultmissiontype = "Standby",
 		description = "Mobile Artillery",
@@ -58,9 +58,9 @@ return {
 		turnrate = 150,
 		unitname = "talon_nunchuck",
 		customparams = {
-			buildpic = "talon_nunchuck.png",
+			buildpic = "talon_nunchuck.dds",
 			canareaattack = 1,
-			faction = "ARM",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -90,7 +90,11 @@ return {
 				reclaimable = true,
 			},
 		},
-		sfxtypes = {
+		sfxtypes = {	
+			explosiongenerators = {
+				[1] = "custom:akmech_muzzle",
+			},
+
 			pieceexplosiongenerators = {
 				[1] = "piecetrail0",
 				[2] = "piecetrail1",
@@ -122,8 +126,8 @@ return {
 			},
 		},
 		weapondefs = {
-			arm_artillery = {
-				accuracy = 1000,
+			talon_artillery = {
+				accuracy = 300,
 				burst = 2,
 				burstrate = 0.3,
 				areaofeffect = 140,
@@ -138,7 +142,6 @@ return {
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
 				name = "PlasmaCannon",
-				nogap = 1,
 				noselfdamage = true,
 				range = 1350,
 				reloadtime = 2.5,
@@ -150,10 +153,11 @@ return {
 				soundhitwet = "splsmed",
 				soundhitwetvolume = 0.6,
 				soundstart = "cannhvy2",
+				sprayangle = 360,
 				stages = 20,
 				turret = true,
 				weapontype = "Cannon",
-				weaponvelocity = 418.92722,
+				weaponvelocity = 425,
 				damage = {
 					default = 150,
 					subs = 5,
@@ -162,7 +166,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				def = "ARM_ARTILLERY",
+				def = "TALON_ARTILLERY",
 				onlytargetcategory = "SURFACE",
 			},
 		},

@@ -15,7 +15,7 @@ return {
 		canstop = 1,
 		category = "ALL CONSTR LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "32 18 42",
+		collisionvolumescales = "32 28 50",
 		collisionvolumetype = "Box",
 		corpse = "1_dead",
 		defaultmissiontype = "Standby",

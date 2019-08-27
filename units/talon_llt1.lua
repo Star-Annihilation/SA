@@ -33,7 +33,7 @@ return {
 		idleautoheal = 5,
 		idletime = 1800,
 		losemitheight = 65,
-		mass = 93.33334,
+		mass = 187,
 		maxdamage = 890,
 		maxslope = 14,
 		maxvelocity = 0,
@@ -136,7 +136,7 @@ return {
 				name = "Talon Gun",
 				noselfdamage = true,
 				range = 520,
-				reloadtime = 0.3,
+				reloadtime = 0.25,
 				rgbcolor = "1.0 0.8 0.25",
 				rgbcolor2= "1.0 1.0 1.00";
 				soundhitdry = "talongunhit",
@@ -152,8 +152,8 @@ return {
 				weapontype = "LaserCannon",
 				weaponvelocity = 850,
 				damage = {
-					commanders = 150,
-					default = 75,
+					commanders = 75,
+					default = 50,
 					subs = 5,
 				},
 			},

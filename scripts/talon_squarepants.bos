@@ -36,17 +36,21 @@ SmokeUnit(healthpercent, sleeptime, smoketype)
 	}
 }
 
+Activate()
+{
+	spin radar around y-axis speed <100.000000> accelerate <1.000000>;
+}
 
+Deactivate()
+{
+	spin radar around y-axis speed <0.000000> accelerate <1.000000>;
+}
 
 Create()
 {
 	
 	hide flare;
-	dont-cache flare;
-	spin radar around y-axis speed <100.000000> accelerate <10.000000>;
-	start-script SmokeUnit();
-	
-	
+	start-script SmokeUnit();	
 }
 
 SetMaxReloadTime(Func_Var_1)

@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 17500,
 		buildcostmetal = 910,
 		builder = false,
-		buildpic = "talon_sapphire.png",
+		buildpic = "talon_sapphire.dds",
 		buildtime = 17500,
 		canattack = true,
 		canguard = true,
@@ -13,9 +13,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
-		collisionvolumeoffsets = "0 0 2",
-		collisionvolumescales = "43 23 43",
-		collisionvolumetype = "CylY",
+		collisionvolumeoffsets = "0 -7 0",
+		collisionvolumescales = "45 23 48",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Heavy Assault Tank",
@@ -57,8 +57,8 @@ return {
 		turnrate = 378,
 		unitname = "talon_sapphire",
 		customparams = {
-			buildpic = "talon_Sapphire.png",
-			faction = "ARM",
+			buildpic = "talon_Sapphire.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -91,7 +91,6 @@ return {
 		sfxtypes = {
 			explosiongenerators = {
 				[1] = "custom:MEDIUMFLARE",
-				[2] = "custom:DUST_CLOUD_CHEAP",
 			},
 			pieceexplosiongenerators = {
 				[1] = "piecetrail0",
@@ -124,8 +123,10 @@ return {
 			},
 		},
 		weapondefs = {
-			arm_bull = {
+			talon_plasma = {
 				areaofeffect = 145,
+				burst = 2,
+				burstrate = 0.3,
 				avoidfeature = false,
 				cegtag = "Trail_cannon_med",
 				craterareaofeffect = 0,
@@ -139,7 +140,7 @@ return {
 				nogap = 1,
 				noselfdamage = true,
 				range = 480,
-				reloadtime = 1.5,
+				reloadtime = 3,
 				rgbcolor = "0.7 0.37 0",
 				separation = 0.45,
 				size = 2.14,
@@ -148,6 +149,7 @@ return {
 				soundhitwet = "splsmed",
 				soundhitwetvolume = 0.6,
 				soundstart = "cannon3",
+				sprayangle = 300,				
 				stages = 20,
 				turret = true,
 				weapontype = "Cannon",
@@ -161,7 +163,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				def = "ARM_BULL",
+				def = "TALON_PLASMA",
 				onlytargetcategory = "SURFACE",
 			},
 		},

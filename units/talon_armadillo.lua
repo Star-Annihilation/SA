@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 18750,
 		buildcostmetal = 1520,
 		builder = false,
-		buildpic = "talon_armadillo.png",
+		buildpic = "talon_armadillo.dds",
 		buildtime = 25000,
 		canattack = true,
 		canguard = true,
@@ -14,7 +14,7 @@ return {
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "30 30 40",
+		collisionvolumescales = "40 65 65",
 		collisionvolumetype = "Box",
 		corpse = "dead",
 		damagemodifier = 1,
@@ -58,8 +58,8 @@ return {
 		turnrate = 520.29999,
 		unitname = "talon_armadillo",
 		customparams = {
-			buildpic = "talon_armadillo.png",
-			faction = "ARM",
+			buildpic = "talon_armadillo.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -175,10 +175,10 @@ return {
 				impulseboost = 0,
 				impulsefactor = 0,
 				laserflaresize = 10,
-				name = "LightLaser",
+				name = "Talon Gun",
 				noselfdamage = true,
 				range = 600,
-				reloadtime = 0.3,
+				reloadtime = 0.25,
 				rgbcolor = "1.0 0.8 0.25",
 				rgbcolor2= "1.0 1.0 1.00";
 				soundhitdry = "talongunhit",
@@ -194,7 +194,7 @@ return {
 				weapontype = "LaserCannon",
 				weaponvelocity = 850,
 				damage = {
-					default = 90,
+					default = 30,
 					subs = 5,
 				},
 			},

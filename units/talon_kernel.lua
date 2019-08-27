@@ -7,11 +7,14 @@ return {
 		buildcostenergy = 26200,
 		buildcostmetal = 1320,
 		builder = false,
-		buildpic = "talon_kernel.png",
+		buildpic = "talon_kernel.dds",
 		buildtime = 25000,
 		canattack = true,
 		canstop = 1,
 		category = "ALL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -20 0",
+		collisionvolumescales = "35 120 35",
+		collisionvolumetype = "CylY",
 		corpse = "dead",
 		defaultmissiontype = "GUARD_NOMOVE",
 		description = "Anti-Air Flak Gun - Naval Series",
@@ -44,8 +47,8 @@ return {
 		waterline = 0,
 		yardmap = "wwww wwww wwww wwww",
 		customparams = {
-			buildpic = "talon_kernel.png",
-			faction = "TLL",
+			buildpic = "talon_kernel.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

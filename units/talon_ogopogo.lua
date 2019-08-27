@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 14810,
 		buildcostmetal = 450,
 		builder = false,
-		buildpic = "talon_ogopogo.png",
+		buildpic = "talon_ogopogo.dds",
 		buildtime = 9000,
 		canattack = true,
 		canguard = true,
@@ -15,7 +15,7 @@ return {
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE UNDERWATER",
 		collisionvolumeoffsets = "0 -7 0",
-		collisionvolumescales = "31 31 31",
+		collisionvolumescales = "34 31 38",
 		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -58,8 +58,8 @@ return {
 		turnrate = 487,
 		unitname = "talon_ogopogo",
 		customparams = {
-			buildpic = "talon_ogopogo.png",
-			faction = "CORE",
+			buildpic = "talon_ogopogo.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

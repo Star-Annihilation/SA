@@ -6,7 +6,7 @@ return {
 		brakerate = 0.112,
 		buildcostenergy = 11800,
 		buildcostmetal = 120,
-		buildpic = "talon_echelon.png",
+		buildpic = "talon_echelon.dds",
 		buildtime = 8750,
 		canattack = true,
 		canfly = true,
@@ -49,8 +49,8 @@ return {
 		turnrate = 1400,
 		unitname = "talon_echelon",
 		customparams = {
-			buildpic = "talon_echelon.png",
-			faction = "ARM",
+			buildpic = "talon_echelon.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

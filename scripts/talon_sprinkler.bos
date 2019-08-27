@@ -47,6 +47,7 @@ SmokeUnit(healthpercent, sleeptime, smoketype)
 	{
 		sleep 400;
 	}
+	spin turret around y-axis speed <-20.000000> accelerate <10.000000>;
 	while( TRUE )
 	{
 		healthpercent = get HEALTH;
@@ -138,24 +139,11 @@ Create()
 {
 	hide Rflare;
 	hide Lflare;
-	
-	dont-cache body;
-	dont-cache base;
-	dont-cache sleeves;
-	dont-cache aimpoint;
-	dont-cache Lsleeve;
-	dont-cache Rsleeve;
-	dont-cache Rweapon;
-	dont-cache Lweapon;
-	dont-cache Rbarrel;
-	dont-cache Lbarrel;
-	dont-cache wall;
-
 	Static_Var_1 = 0;
 	restore_delay = 5000;
+	turn sleeves to x-axis <-90.000000> now;
+	move wall to y-axis [18.000000] now;
 	call-script InitState();
-	call-script Stop();
-		
 	start-script SmokeUnit();	
 }
 

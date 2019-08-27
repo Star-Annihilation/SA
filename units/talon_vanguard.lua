@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 6205,
 		buildcostmetal = 520,
 		builder = false,
-		buildpic = "talon_vanguard.png",
+		buildpic = "talon_vanguard.dds",
 		buildtime = 9000,
 		canattack = true,
 		canguard = true,
@@ -14,8 +14,8 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
-		collisionvolumeoffsets = "0 -4 0",
-		collisionvolumescales = "38.5 38.5 34.5",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "38 38 50",
 		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -61,8 +61,8 @@ return {
 		unitname = "talon_vanguard",
 		upright = false,
 		customparams = {
-			buildpic = "talon_vanguard.png",
-			faction = "CORE",
+			buildpic = "talon_vanguard.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

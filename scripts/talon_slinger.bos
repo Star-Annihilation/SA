@@ -59,7 +59,7 @@ FirePrimary()
 {
 	if( Static_Var_1 == 0 )
 	{
-		emit-sfx 1025 from flare1;
+		emit-sfx 1024 from flare1;
 		move sleeve1 to z-axis [-5.] now;
 		explode shell type FALL;
 		sleep 150;
@@ -68,7 +68,7 @@ FirePrimary()
 	}
 	if( Static_Var_1 == 1 )
 	{
-		emit-sfx 1025 from flare2;
+		emit-sfx 1024 from flare2;
 		move sleeve2 to z-axis [-5.] now;
 		explode shell type FALL;
 		sleep 150;

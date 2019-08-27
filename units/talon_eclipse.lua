@@ -8,7 +8,7 @@ return {
 		buildcostenergy = 14350,
 		buildcostmetal = 415,
 		builder = false,
-		buildpic = "talon_eclipse.png",
+		buildpic = "talon_eclipse.dds",
 		buildtime = 25000,
 		canattack = true,
 		canfly = true,
@@ -48,7 +48,8 @@ return {
 		turnrate = 265,
 		unitname = "talon_eclipse",
 		customparams = {
-			faction = "TLL",
+			buildpic = "talon_eclipse.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

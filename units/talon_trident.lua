@@ -8,7 +8,7 @@ return {
 		buildcostenergy = 7600,
 		buildcostmetal = 225,
 		builder = false,
-		buildpic = "talon_trident.png",
+		buildpic = "talon_trident.dds",
 		buildtime = 12000,
 		canattack = true,
 		canfly = true,
@@ -53,8 +53,8 @@ return {
 		turnrate = 597,
 		unitname = "talon_trident",
 		customparams = {
-			buildpic = "talon_trident.png",
-			faction = "ARM",
+			buildpic = "talon_trident.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

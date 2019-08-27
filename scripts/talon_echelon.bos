@@ -145,14 +145,48 @@ Deactivate()
 	start-script RequestState(1);
 }
 
-FirePrimary(Func_Var_1)
+AimFromPrimary(piecenum)
 {
-	Static_Var_2 = !Static_Var_2;
+	piecenum = base;
+}
+
+AimPrimary(heading, pitch)
+{
+	signal 2;
+	set-signal-mask 2;
+	return (1);
+}
+
+FirePrimary()
+{
+
 }
 
 QueryPrimary(piecenum)
 {
-	piecenum = Static_Var_2;
+	piecenum = topa;
+}
+
+AimFromSecondary(piecenum)
+{
+	piecenum = base;
+}
+
+AimSecondary(heading, pitch)
+{
+	signal 4;
+	set-signal-mask 4;
+	return (1);
+}
+
+FireSecondary()
+{
+
+}
+
+QuerySecondary(piecenum)
+{
+	piecenum = topb;
 }
 
 SweetSpot(piecenum)

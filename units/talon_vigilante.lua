@@ -9,7 +9,7 @@ return {
 		buildcostenergy = 7450,
 		buildcostmetal = 115,
 		builder = false,
-		buildpic = "talon_vigilante.png",
+		buildpic = "talon_vigilante.dds",
 		buildtime = 9500,
 		canfly = true,
 		canguard = true,
@@ -54,8 +54,8 @@ return {
 		turnrate = 402,
 		unitname = "talon_vigilante",
 		customparams = {
-			buildpic = "talon_vigilante.png",
-			faction = "ARM",
+			buildpic = "talon_vigilante.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

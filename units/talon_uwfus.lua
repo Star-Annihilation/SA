@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
 		buildinggrounddecaltype = "armuwfus_aoplane.dds",
-		buildpic = "talon_uwfus.png",
+		buildpic = "talon_uwfus.dds",
 		buildtime = 90000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON UNDERWATER",
 		corpse = "dead",
@@ -45,8 +45,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooooooo",
 		customparams = {
-			buildpic = "talon_uwfus.png",
-			faction = "ARM",
+			buildpic = "talon_uwfus.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

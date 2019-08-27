@@ -6,7 +6,7 @@ return {
 		buildcostmetal = 355,
 		builddistance = 100,
 		builder = true,
-		buildpic = "talon_medic.png",
+		buildpic = "talon_medic.dds",
 		buildtime = 10000,
 		canfly = true,
 		canguard = true,
@@ -72,7 +72,8 @@ return {
 			[22] = "talon_eclipse",
 		},
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_medic.dds",
+			faction = "TALON",
 		},
 		nanocolor = {
 			[1] = 0.12,

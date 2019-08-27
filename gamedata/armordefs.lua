@@ -15,7 +15,10 @@ return {
 	"tllshu",
 	"armstratus",
 	"corshock",
-	"tllcondor"
+	"tllcondor",
+	"talon_token",
+	"talon_echelon",
+	"talon_hornet",
 	},
 	bombers = {
 	"armblz",
@@ -41,7 +44,10 @@ return {
 	"corsbomb",
 	"armorion",
 	"tllanhur",
-	"tllaether"
+	"tllaether",
+	"talon_shade",
+	"talon_eclipse",
+	"talon_handgod",
 	},
 	flak_resistant = {
 	"apache",
@@ -52,7 +58,6 @@ return {
 	"tllcopter",
 	"corhind",
 	"armkamo",
-	"skykrogoth"
 	},
 	unclassed_air = {
 	-- Builders
@@ -79,6 +84,9 @@ return {
 	"tlleca",
 	"tllcsa",
 	"tlltsetse",
+	"talon_ca",
+	"talon_aca",
+	"talon_medic",
 	-- gunships without flak resistance
 	"armbrawl",
 	"armjade",
@@ -94,7 +102,11 @@ return {
 	"ferret",
 	"tllcop1",
 	"tlltorpcop",
+	"talon_drone",
+	"talon_trident", 
 	"bladew",
+	"talon_vulture",
+	"talon_pampa",
 	-- scout planes
 	"armawac",
 	"armpeep",
@@ -120,7 +132,10 @@ return {
 	"tllhtca",
 	"tllmoth",
 	"blastwing",
-	"armarpe"
+	"armarpe",
+	"talon_recon",
+	"talon_vigilante",
+	"talon_dart",
     },
     transporters = {
 	"armatlas",
@@ -132,7 +147,9 @@ return {
 	"tllrobber",
 	"tlltplane",
 	"armor",
-	"corbtrans"
+	"corbtrans",
+	"talon_wyvern",
+	"talon_rukh",
     },
 --### SEA ###
 	ships = {
@@ -219,7 +236,8 @@ return {
 	"tllcaps",
 	"armecs",
 	"corecs",
-	"tllecs"
+	"tllecs",
+	"talon_dread",
     },
 --### LAND ###
 	experimental_land = {
@@ -351,7 +369,7 @@ return {
 	"mercury",
 	"screamer",
 	"tllhmt",
-	"--corsfus" --too op
+	"talon_cir",
 	},
 	crawlingbombs = {
 	"armvader",
@@ -383,7 +401,15 @@ return {
 	"tllfnanotc",
 	"tllfnanotc1",
 	"tllfnanotc2",
-	"tllfnanotc3"
+	"tllfnanotc3",
+	"talon_nanotc",
+	"talon_nanotc1",
+	"talon_nanotc2",
+	"talon_nanotc3",
+	"talon_fnanotc",
+	"talon_fnanotc1",
+	"talon_fnanotc2",
+	"talon_fnanotc3",
 	},
 	mines = {
 	"armmine1",
@@ -403,12 +429,18 @@ return {
 	"tllmine3",
 	"tllmine4",
 	"tllmine5",
-	"tllmine6"
+	"tllmine6",
+	"talon_mine1",
+	"talon_mine2",
+	"talon_mine3",
+	"talon_mine4",
+	"talon_mine5",
 	},
 	minelayers = {
 	"armmlv",
 	"cormlv",
-	"tllmlv"
+	"tllmlv",
+	"talon_mlv",
 	},
 	commanders = {
 	"armcom",

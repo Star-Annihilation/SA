@@ -17,7 +17,7 @@ return {
 		canstop = 1,
 		category = "ALL NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		collisionvolumeoffsets = "0 -9 0",
-		collisionvolumescales = "32 40 32",
+		collisionvolumescales = "34 80 34",
 		collisionvolumetype = "CylY",
 		corpse = "dead",
 		defaultmissiontype = "GUARD_NOMOVE",
