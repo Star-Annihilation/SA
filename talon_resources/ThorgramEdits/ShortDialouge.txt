@@ -1,0 +1,20 @@
+Team Color Hex Code for Bucket or Team Color recognition is 830083.
+Add that color to a brush or a bucket and change the color of anything to that for absolute team color.
+If you want to add reflection youll need to flatten the layers together then add transparencies.
+Also Blurred edges that change the hexcode 830083 will cause purple edges around, so disable anti aliasing on your edits to disable bluring render effect.
+Will better document later...
+
+To recreate talonlogogouraud, take file blanklogogouraud and remove transparency. Add Talonraw64 as a new layer ontop. Merge both layers together, then you can add a universal transparency of -60 to have a consistent reflection throughout the texture to have a mild shiny.
+
+I was using Paint.net 4.2.1 with boltbaits plugins. This allows you to remove transpariencies from layers by ADJUSTMENTS tab with transpariences. 
+Then you can add the transpariency back later after merging the layers.
+
+
+
+https://forums.getpaint.net/topic/113220-boltbaits-plugin-pack-for-pdn-v41-and-beyond-updated-december-1-2018/
+
+So try selecting a texture of your preference and add talonraw32 as a layer ontop of texture at size 64x64 recommended, and saving it, and try adding the teamtex
+document and see if it works
+
+
+I can add the logo to any 64x64 texture of your choice you can put that file in the above folder
