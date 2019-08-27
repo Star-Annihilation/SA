@@ -16,6 +16,10 @@ return {
 		canattack = true,
 		canstop = 1,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "100 100 110",
+		collisionvolumetest = 1,
+		collisionvolumetype = "box",
 		corpse = "dead",
 		defaultmissiontype = "GUARD_NOMOVE",
 		description = "Medium-Fire Long-Range Plasma Cannon",
@@ -48,8 +52,8 @@ return {
 		usepiececollisionvolumes = 1,
 		yardmap = "oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo",
 		customparams = {
-			buildpic = "talon_veloute.png",
-			faction = "ARM",
+			buildpic = "talon_veloute.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 389000,
 		buildcostmetal = 17400,
 		builder = false,
-		buildpic = "talon_abaddon.png",
+		buildpic = "talon_abaddon.dds",
 		buildtime = 225000,
 		canattack = true,
 		canguard = true,
@@ -15,8 +15,8 @@ return {
 		canstop = 1,
 		cantbetransported = true,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE UNDERWATER",
-		collisionvolumeoffsets = "0 -10 0",
-		collisionvolumescales = "56 50 80",
+		collisionvolumeoffsets = "0 -2 0",
+		collisionvolumescales = "62 60 95",
 		collisionvolumetype = "box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -59,7 +59,8 @@ return {
 		turnrate = 150,
 		unitname = "talon_abaddon",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_abaddon.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

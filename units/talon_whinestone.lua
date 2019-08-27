@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 2250,
 		buildcostmetal = 225,
 		builder = false,
-		buildpic = "talon_Whinestone.png",
+		buildpic = "talon_Whinestone.dds",
 		buildtime = 3000,
 		canattack = true,
 		canguard = true,
@@ -58,8 +58,8 @@ return {
 		turnrate = 484,
 		unitname = "armstump",
 		customparams = {
-			buildpic = "talon_whinestone.png",
-			faction = "ARM",
+			buildpic = "talon_whinestone.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

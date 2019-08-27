@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 51000,
 		buildcostmetal = 3680,
 		builder = false,
-		buildpic = "talon_pampa.png",
+		buildpic = "talon_pampa.dds",
 		buildtime = 32000,
 		canattack = true,
 		canfly = true,
@@ -49,8 +49,8 @@ return {
 		turnrate = 480,
 		unitname = "talon_pampa",
 		customparams = {
-			buildpic = "talon_pampa.png",
-			faction = "ARM",
+			buildpic = "talon_pampa.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			explosiongenerators = {

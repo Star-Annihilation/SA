@@ -57,7 +57,8 @@ return {
 		unitname = "talon_mrtn",
 		upright = false,
 		customparams = {
-			faction = "CORE",
+			buildpic = "talon_mrtn.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

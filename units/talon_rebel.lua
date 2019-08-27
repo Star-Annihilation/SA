@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 850,
 		buildcostmetal = 45,
 		builder = false,
-		buildpic = "talon_rebel.png",
+		buildpic = "talon_rebel.dds",
 		buildtime = 1600,
 		canattack = true,
 		canguard = true,
@@ -52,8 +52,8 @@ return {
 		unitrestricted = 125,
 		upright = true,
 		customparams = {
-			buildpic = "talon_rebel.png",
-			faction = "ARM",
+			buildpic = "talon_rebel.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -59,8 +59,8 @@ return {
 			[4] = "talon_covertopscentre",
 		},
 		customparams = {
-			buildpic = "talon_eck.png",
-			faction = "TLL",
+			buildpic = "talon_eck.dds",
+			faction = "TALON",
 			providetech = "T3 Factory",
 		},
 		featuredefs = {
