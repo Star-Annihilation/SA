@@ -56,9 +56,11 @@ return {
 		unitname = "talon_mine4",
 		usebuildinggrounddecal = true,
 		customparams = {
-			buildpic = "talon_mine4.png",
-			faction = "ARM",
-			requiretech = "Advanced T2 Unit Research Centre",
+			buildpic = "talon_mine4.dds",
+			detonaterange = "64",
+			faction = "TALON",
+			initcloaked = true,
+			requiretech = "T2 Factory",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

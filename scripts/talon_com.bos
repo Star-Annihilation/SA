@@ -388,19 +388,24 @@ FirePrimary()
 
 AimSecondary(heading, pitch)
 {
-	signal 4;
-	set-signal-mask 4;
-	return (1);
+	if( Static_Var_20 )
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
 
 AimFromSecondary(piecenum)
 {
-	piecenum = base;
+	piecenum = lleg;
 }
 
 QuerySecondary(piecenum)
 {
-	piecenum = base;
+	piecenum = lleg;
 }
 
 AimFromTertiary(piecenum)

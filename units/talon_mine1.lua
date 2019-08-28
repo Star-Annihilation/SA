@@ -62,8 +62,10 @@ return {
 		unitname = "talon_mine1",
 		usebuildinggrounddecal = true,
 		customparams = {
-			buildpic = "talon_mine1.png",
-			faction = "ARM",
+			buildpic = "talon_mine1.dds",
+			detonaterange = "64",
+			faction = "TALON",
+			initcloaked = true,
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

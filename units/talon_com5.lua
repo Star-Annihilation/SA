@@ -9,7 +9,7 @@ return {
 		buildcostmetal = 9250,
 		builddistance = 152,
 		builder = true,
-		buildpic = "talon_com.png",
+		buildpic = "talon_com5.dds",
 		buildtime = 300000,
 		canattack = true,
 		cancapture = true,
@@ -61,7 +61,7 @@ return {
 		radardistance = 940,
 		radaremitheight = 41,
 		reclaimable = false,
-		script = "talon_com.cob",
+		script = "talon_com.cob", 	
 		seismicsignature = 0,
 		selfdestructas = "COMMANDER_BLAST1",
 		selfdestructcountdown = 4,
@@ -103,8 +103,8 @@ return {
 			[23] = "talon_tl",
 		},
 		customparams = {
-			buildpic = "talcom.png",
-			faction = "ARM",
+			buildpic = "talon_com5.dds",
+			faction = "TALON",
 			iscommander = true,
 		},
 		featuredefs = {

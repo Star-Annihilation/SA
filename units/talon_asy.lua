@@ -55,12 +55,10 @@ return {
 			[1] = "talon_acs",
 			[2] = "talon_aas",
 			[3] = "talon_jellyfish",
-			[4] = "talon_lancelet",
-			[5] = "talon_anonymous",
-			[6] = "talon_nexus",
-			[7] = "talon_zamak",
-			[8] = "talon_imperator",
-			
+			[4] = "talon_anonymous",
+			[5] = "talon_nexus",
+			[6] = "talon_zamak",
+			[7] = "talon_imperator",			
 		},
 		customparams = {
 			buildpic = "talon_asy.png",

@@ -57,6 +57,45 @@ local morphDefs = {
 		into = 'armcom7',
 		time = 180,
 	},
+	talon_com = {
+		{
+			into = 'talon_com3',
+			time = 30,
+		
+			--metal = 0,
+			--energy = 0,
+			--Free For Xmas
+		
+		},
+		{
+			into = 'talon_com1',
+			time = 30,
+		
+			--metal = 0,
+			--energy = 0,
+			--Free For Xmas
+		},
+	},
+	talon_com1 = {
+		into = 'talon_com_fusion',
+        	time = 60,
+	},
+	talon_com_fusion = {
+		into = 'talon_com6',
+        	time = 120,
+	},
+	talon_com3 = {
+		into = 'talon_com5',
+        	time = 60,
+	},
+	talon_com5 = {
+		into = 'talon_com6',
+		time = 120,
+	},
+	talon_com6 = {
+		into = 'talon_com7',
+		time = 180,
+	},
 	corcom = {
 		{
 			into = 'corcom3',
@@ -164,7 +203,12 @@ local morphDefs = {
 	tllllt = {
 		into = 'tlllft',
 		time = 15,
-		xp = 0.40,
+		xp = 0.25,
+	},
+	talon_llt = {
+		into = 'talon_llt',
+		time = 15,
+		xp = 0.50,
 	},
 	armhlt = {
 		into = 'armvhlt',
@@ -176,6 +220,11 @@ local morphDefs = {
 		time = 30,
 		xp = 0.30,	
 	},
+	talon_hlt = {
+		into = 'talon_vhlt',
+		time = 30,
+		xp = 0.30,
+	},	
 	corhlt= {
 		into = 'corvhlt',
 		time = 30,
@@ -203,6 +252,11 @@ local morphDefs = {
 	},
 	armguard= {
 		into = 'armamb',
+		time = 30,
+		xp = 0.50,
+	},
+	talon_painless = {
+		into = 'talon_slinger',
 		time = 30,
 		xp = 0.50,
 	},

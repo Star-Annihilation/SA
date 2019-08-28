@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 395400,
 		buildcostmetal = 23920,
 		builder = false,
-		buildpic = "talon_talos.png",
+		buildpic = "talon_talos.dds",
 		buildtime = 330000,
 		canattack = true,
 		canguard = true,
@@ -14,7 +14,7 @@ return {
 		canstop = 1,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		collisionvolumeoffsets = "0 -9 0",
-		collisionvolumescales = "104 106 68",
+		collisionvolumescales = "104 112 68",
 		collisionvolumetype = "Ell",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
@@ -55,9 +55,8 @@ return {
 		unitname = "talon_talos",
 		upright = true,
 		customparams = {
-			buildpic = "talon_talos.png",
-			faction = "ARM",
-			requiretech = "Advanced T3 Unit Research Centre",
+			buildpic = "talon_talos.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

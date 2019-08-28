@@ -9,7 +9,7 @@ return {
 		buildcostmetal = 8000,
 		builddistance = 212,
 		builder = true,
-		buildpic = "talon_com.png",
+		buildpic = "talon_com_fusion.dds",
 		buildtime = 100000,
 		canattack = true,
 		cancapture = true,
@@ -57,7 +57,7 @@ return {
 		name = "Fusion Commander",
 		nochasecategory = "ALL SUB",
 		norestrict = 1,
-		objectname = "talon_COM",
+		objectname = "TALON_COM",
 		radardistance = 760,
 		radaremitheight = 37,
 		reclaimable = false,
@@ -103,8 +103,8 @@ return {
 			[23] = "talon_tl",
 		},
 		customparams = {
-			buildpic = "talcom.png",
-			faction = "ARM",
+			buildpic = "talon_com_fusion.dds",
+			faction = "TALON",
 			iscommander = true,
 		},
 		featuredefs = {

@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 3,
 		buildinggrounddecalsizey = 3,
 		buildinggrounddecaltype = "talon_mine3_aoplane.dds",
-		buildpic = "armmine5.dds",
+		buildpic = "talon_mine3.dds",
 		buildtime = 125,
 		canattack = false,
 		canguard = false,
@@ -56,9 +56,10 @@ return {
 		unitname = "talon_mine3",
 		usebuildinggrounddecal = true,
 		customparams = {
-			buildpic = "talon_mine3.png",
-			faction = "ARM",
-			requiretech = "Advanced T1 Unit Research Centre",
+			buildpic = "talon_mine3.dds",
+			detonaterange = "64",
+			faction = "TALON",
+			initcloaked = true,
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

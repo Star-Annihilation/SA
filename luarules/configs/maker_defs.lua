@@ -50,7 +50,7 @@ local convertCapacities = {
 		[UnitDefNames.tllmetalmakerlvl1.id]  = { c = 200, e = (T2) }, -- T1,5
 		--[UnitDefNames.____.id]  = { c = 600, e = (T3) }, -- Cloaked/Hardened
 		[UnitDefNames.tllammaker.id]  = { c = 1000, e = (T4) }, -- Moho
-		[UnitDefNames.tllwmmohoconv.id]  = { c = 1000, e = (T5) }, -- Underwater
+		[UnitDefNames.tllwmmohoconv.id]  = { c = 1200, e = (T5) }, -- Underwater
 		[UnitDefNames.tllmetalmakerlvl2.id]  = { c = 10000, e = (T6) }, -- T4	
 		[UnitDefNames.tllmetalmakerlvl3.id]  = { c = 40000, e = (T7) }, -- T4
 		[UnitDefNames.tllgen.id]  = { c = UnitDefNames.tllgen.energyMake, e = (ACZ) },
@@ -61,8 +61,8 @@ local convertCapacities = {
 		--[UnitDefNames.talon_afmkr.id]  = { c = 225, e = (AC2) }, -- T1,5
 		[UnitDefNames.talon_amaker.id]  = { c = 1200, e = (AC4) }, -- Moho
 		[UnitDefNames.talon_famkr.id]  = { c = 1375, e = (AC5) }, -- Underwater
-		[UnitDefNames.talon_metalmakerlvl2.id]  = { c = 8000, e = (AC6) }, -- T3
-		[UnitDefNames.talon_metalmakerlvl3.id]  = { c = 72000, e = (AC7) }, -- T4		
+		[UnitDefNames.talon_metalmakerlvl2.id]  = { c = 12000, e = (AC6) }, -- T3
+		[UnitDefNames.talon_metalmakerlvl3.id]  = { c = 48000, e = (AC7) }, -- T4		
 		[UnitDefNames.talon_gen.id]  = { c = UnitDefNames.talon_gen.energyMake, e = (ACZ) },
     }
 

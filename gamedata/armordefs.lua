@@ -1,5 +1,7 @@
 return {
+	
 	--### AIR ###
+	
 	fighters = {
 	"airwolf3g",
 	"armfig",
@@ -60,7 +62,6 @@ return {
 	"armkamo",
 	},
 	unclassed_air = {
-	-- Builders
 	"abuilderlvl1",
 	"abuilderlvl2",
 	"abuilderlvl3",
@@ -87,7 +88,6 @@ return {
 	"talon_ca",
 	"talon_aca",
 	"talon_medic",
-	-- gunships without flak resistance
 	"armbrawl",
 	"armjade",
 	"armkam",
@@ -120,12 +120,10 @@ return {
 	"tllrsplane",
 	"tllsonpl",
 	"armsr71",
-	-- gunship fighters
 	"tawf015",
 	"corrag",
 	"armmin",
 	"cormin",
-	--"tlltsetse",
 	"tllbuilderlvl1",
 	"tllbuilderlvl2",
 	"tllbuilderlvl3",
@@ -136,8 +134,8 @@ return {
 	"talon_recon",
 	"talon_vigilante",
 	"talon_dart",
-    },
-    transporters = {
+	},
+	transporters = {
 	"armatlas",
 	"armdfly",
 	"armdragf",
@@ -150,10 +148,11 @@ return {
 	"corbtrans",
 	"talon_wyvern",
 	"talon_rukh",
-    },
+},
+
 --### SEA ###
+
 	ships = {
-	--t1
 	"armmls",
 	"armaas",
 	"armcrus",
@@ -178,7 +177,6 @@ return {
 	"cormship",
 	"corcarry",
 	"corsjam",
-	--t2
 	"armcs",
 	"armpt",
 	"decade",
@@ -195,9 +193,20 @@ return {
 	"coresupp",
 	"corroy",
 	"cortship",
-	"corasship"
-    },
-    subs = {
+	"corasship",
+"talon_cs",
+"talon_charon",
+"talon_vasculitis",
+"talon_mainstay",
+"talon_bishop",
+"talon_acs",
+"talon_anonymous",
+"talon_aas",
+"talon_nexus",
+"talon_zamak",
+	"talon_imperator",
+},
+	subs = {
 	"corsub",
 	"armsub",
 	"tllcsub",
@@ -218,15 +227,19 @@ return {
 	"armrecl",
 	"tllsr",
 	"corbsub",
-	"armbsub"
-    },
-    experimental_ships = {
-	"armtrmph",
-	"armhcar",
-	"aseadragon",
+	"armbsub",
 	"uppercut",
 	"tllswordfish",
 	"armmarlin",
+"talon_sub",
+"talon_jellyfish",
+"talon_lancelet",
+"talon_frigate",
+	},
+	experimental_ships = {
+	"armtrmph",
+	"armhcar",
+	"aseadragon",
 	"armbc",
 	"cortyrnt",
 	"corhcar",
@@ -238,8 +251,10 @@ return {
 	"corecs",
 	"tllecs",
 	"talon_dread",
-    },
---### LAND ###
+	},
+	
+	--### LAND ###
+	
 	experimental_land = {
 	-- tll t3 vechiles
 	"tlltelsatnk",
@@ -293,6 +308,17 @@ return {
 	"corjurgen",
 	"troman",
 	"corhowie",
+--talon t3 kbot
+"talon_berserker",
+"talon_opal",
+"talon_hollander",
+"talon_talos",
+-- talon t3 veh
+"talon_abaddon",
+"talon_repentance",
+"talon_mrtn",
+"talon_visitant",
+"talon_thanos",
 	-- t4
 	"corkrog1",
 	"corkarg1",
@@ -301,17 +327,6 @@ return {
 	"armraz1",
 	"armraptor",
 	"tllsaurus",
-	-- heroes
-	"cdevastator",
-	"abroadside",
-	"corvaliant",
-	"tllzeppelin",
-	"tllbarbarus",
-	-- _experimental_
-	"armpraet",
-	"monkeylord",
-	"irritator",
-	-- t+++
 	"tllcolossus",
 	"fatshrew",
 	"exoarm",
@@ -324,8 +339,19 @@ return {
 	"corarbritator",
 	"cormkl",
 	"tllhailstorm",
-	"armolympus"    
-    },
+	"armolympus",
+	"armpraet",
+	"monkeylord",
+	"irritator",  
+	-- T5 heroes
+	"cdevastator",
+	"abroadside",
+	"corvaliant",
+	"tllzeppelin",
+	"tllbarbarus",
+"talon_skynet",
+	"talon_independence",
+	},
 	flamethrowers = {
 	"corpyro",
 	"corpyrox",
@@ -336,32 +362,19 @@ return {
 	"cormatch",
 	"coreavalanche",
 	"tllgeo_armored",
-	"tllhcrus"
-    },
+	"tllhcrus",
+	},
 	sniper_resistant = {
 	"armzeus",
 	"armzeus1",
-	"corcan"
-    },
-    raider_resistant = {
-	"tllthumper",
-	"corsumo",
-	"corsumo1",
+	"corcan",
+	"corcan1",
 	"tllbind",
-	"corgol",
-	"corgol1",
-	"armfboy",
-	"armfboy1",
-	"cormexp",
-	"corgfbt",
-	"aexxec",
-	"gladiator",
-	"corexp",
-	"corlevlr1",
-	"tllriot"
 	},
-    -- TODO bombresistant
-    bomb_resistant = {
+	raider_resistant = {
+	
+	},   
+	bomb_resistant = {
 	"armcir",
 	"armcir1",
 	"corerad",
@@ -376,9 +389,9 @@ return {
 	"corroach",
 	"corsktl",
 	"tllcrawlb",
-	"coretnt"
+	"coretnt",
 	},
-    nanos = {
+	nanos = {
 	"armnanotc",
 	"armnanotc1",
 	"armnanotc2",

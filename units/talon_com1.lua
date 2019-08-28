@@ -9,7 +9,7 @@ return {
 		buildcostmetal = 3000,
 		builddistance = 212,
 		builder = true,
-		buildpic = "talon_com.dds",
+		buildpic = "talon_com1.dds",
 		buildtime = 100000,
 		canattack = true,
 		cancapture = true,
@@ -103,7 +103,7 @@ return {
 			[23] = "talon_tl",
 		},
 		customparams = {
-			buildpic = "talon_com.dds",
+			buildpic = "talon_com1.dds",
 			faction = "TALON",
 			iscommander = true,
 		},

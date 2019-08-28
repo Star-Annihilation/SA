@@ -13,6 +13,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -9 0",
+		collisionvolumescales = "65 80 65",
+		collisionvolumetype = "Ell",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "LRPC Kbot",
@@ -48,8 +51,8 @@ return {
 		unitname = "talon_hollander",
 		upright = true,
 		customparams = {
-			buildpic = "talon_hollander.png",
-			faction = "CORE",
+			buildpic = "talon_hollander.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

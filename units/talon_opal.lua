@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 92900,
 		buildcostmetal = 3480,
 		builder = false,
-		buildpic = "talon_opal.png",
+		buildpic = "talon_opal.dds",
 		buildtime = 45000,
 		canattack = true,
 		canguard = true,
@@ -14,6 +14,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE UNDERWATER",
+		collisionvolumeoffsets = "0 -9 0",
+		collisionvolumescales = "80 60 70",
+		collisionvolumetype = "Ell",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Amphibious Siege Mech",
@@ -50,8 +53,8 @@ return {
 		unitname = "talon_opal",
 		upright = true,
 		customparams = {
-			buildpic = "talon_opal.png",
-			faction = "CORE",
+			buildpic = "talon_opal.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
