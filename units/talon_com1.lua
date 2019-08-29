@@ -106,6 +106,7 @@ return {
 			buildpic = "talon_com1.dds",
 			faction = "TALON",
 			iscommander = true,
+			paralyzemultiplier = 0.025,
 		},
 		featuredefs = {
 			["8_dead"] = {
