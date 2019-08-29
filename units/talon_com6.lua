@@ -30,7 +30,7 @@ return {
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Commander",
-		energymake = 1500,
+		energymake = 1400,
 		energystorage = 8000,
 		energyuse = 0,
 		explodeas = "COMMANDER_BLAST1",
@@ -49,7 +49,7 @@ return {
 		maxslope = 20,
 		maxvelocity = 1.5,
 		maxwaterdepth = 35,
-		metalmake = 10,
+		metalmake = 12,
 		metalstorage = 4000,
 		mincloakdistance = 40,
 		mobilestandorders = 1,
@@ -106,6 +106,7 @@ return {
 			buildpic = "talon_com6.dds",
 			faction = "TALON",
 			iscommander = true,
+			paralyzemultiplier = 0.025,
 		},
 		featuredefs = {
 			dead = {
