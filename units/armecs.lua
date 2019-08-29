@@ -4,7 +4,7 @@ return {
 		brakerate = 0.15,
 		buildcostenergy = 232303,
 		buildcostmetal = 16248,
-		builddistance = 375,
+		builddistance = 450,
 		builder = true,
 		buildpic = "armecs.dds",
 		buildtime = 300000,
