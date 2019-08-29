@@ -65,7 +65,7 @@ return {
 			[11] = "armbrtha1",
 			[12] = "armvulc1",
 			[13] = "armtabi",
-			[14] = "corkrog1",
+			[14] = "armbanth1",
 		},
 		customparams = {
 			buildpic = "abuilderlvl5.dds",
