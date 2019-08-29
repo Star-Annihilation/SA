@@ -9,7 +9,7 @@ return {
 		buildinggrounddecalsizex = 10,
 		buildinggrounddecalsizey = 10,
 		buildinggrounddecaltype = "corgant_aoplane.dds",
-		buildpic = "talon_elab.png",
+		buildpic = "talon_elab.dds",
 		buildtime = 72000,
 		canmove = true,
 		canpatrol = true,
@@ -61,8 +61,8 @@ return {
 			[5] = "talon_talos",
 		},
 		customparams = {
-			buildpic = "talon_elab.png",
-			faction = "CORE",
+			buildpic = "talon_elab.dds",
+			faction = "TALON",
 			providetech = "T3 Factory",
 		},
 		featuredefs = {
