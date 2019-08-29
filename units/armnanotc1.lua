@@ -2,8 +2,8 @@ return {
 	armnanotc1 = {
 		acceleration = 0,
 		brakerate = 4.5,
-		buildcostenergy = 21333,
-		buildcostmetal = 725,
+		buildcostenergy = 20610,
+		buildcostmetal = 880,
 		builddistance = 600,
 		builder = true,
 		buildinggrounddecaldecayspeed = 30,
@@ -54,7 +54,7 @@ return {
 		unitname = "armnanotc1",
 		upright = true,
 		usebuildinggrounddecal = true,
-		workertime = 400,
+		workertime = 450,
 		customparams = {
 			buildpic = "armnanotc1.dds",
 			faction = "ARM",
