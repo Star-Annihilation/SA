@@ -10,7 +10,7 @@ return {
 		buildinggrounddecalsizex = 4,
 		buildinggrounddecalsizey = 4,
 		buildinggrounddecaltype = "armfort_aoplane.dds",
-		buildpic = "talon_fort.png",
+		buildpic = "talon_fort.dds",
 		buildtime = 965,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		corpse = "fortification",
@@ -41,8 +41,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ffff",
 		customparams = {
-			buildpic = "talon_fort.png",
-			faction = "ARM",
+			buildpic = "talon_fort.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			fortification = {

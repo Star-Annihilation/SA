@@ -18,8 +18,10 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HUGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL SUPERSHIP WEAPON SURFACE",
-		corpse = "dead",
-		cruisealt = 20,
+		collisionvolumeoffsets = "0 -10 0",
+		collisionvolumescales = "110 90 280",
+		collisionvolumetype = "ellipsoid",
+		cruisealt = 200,
 		defaultmissiontype = "VTOL_standby",
 		description = "Ultimate Weapon",
 		dontland = 1,
@@ -62,19 +64,10 @@ return {
 		unitname = "talon_planetkiller",
 		upright = true,
 		customparams = {
-			faction = "CORE",
+			buildpic = "talon_planetkiller.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
-			dead = {
-				blocking = true,
-				damage = 220660,
-				description = "DEVASTATOR Wreckage",
-				footprintx = 14,
-				footprintz = 8,
-				metal = 227250,
-				object = "talon_planetkiller_dead",
-				reclaimable = true,
-			},
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

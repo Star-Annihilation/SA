@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 7800,
 		buildcostmetal = 790,
 		builder = false,
-		buildpic = "talon_ash.png",
+		buildpic = "talon_ash.dds",
 		buildtime = 12000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL HOVER MEDIUM MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE UNDERWATER",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "32 32 45",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Anti-Submarine HoverCraft",
@@ -53,7 +56,8 @@ return {
 		turnrate = 230,
 		unitname = "talon_ash",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_ash.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

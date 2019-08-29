@@ -6,7 +6,7 @@ return {
 		buildcostenergy = 1550,
 		buildcostmetal = 30,
 		builder = false,
-		buildpic = "talon_recon.png",
+		buildpic = "talon_recon.dds",
 		buildtime = 2100,
 		canfly = true,
 		canguard = true,
@@ -47,8 +47,8 @@ return {
 		turnrate = 880,
 		unitname = "talon_recon",
 		customparams = {
-			buildpic = "talon_recon.png",
-			faction = "ARM",
+			buildpic = "talon_recon.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

@@ -7,7 +7,7 @@ return {
 		buildcostenergy = 5200,
 		buildcostmetal = 270,
 		builder = false,
-		buildpic = "talon_striker.png",
+		buildpic = "talon_striker.dds",
 		buildtime = 5000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canpatrol = true,
 		canstop = 1,
 		category = "ALL MEDIUM MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 0 0",
+		collisionvolumescales = "33 36 35",
+		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Anti-Air Kbot",
@@ -50,8 +53,8 @@ return {
 		unitname = "talon_striker",
 		upright = false,
 		customparams = {
-			buildpic = "talon_striker.png",
-			faction = "ARM",
+			buildpic = "talon_striker.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

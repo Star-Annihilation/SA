@@ -37,8 +37,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooo ooo ooo",
 		customparams = {
-			buildpic = "talon_gen.png",
-			faction = "ARM",
+			buildpic = "talon_gen.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			heap = {

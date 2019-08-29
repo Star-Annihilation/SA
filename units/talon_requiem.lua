@@ -15,7 +15,7 @@ return {
 		buildtime = 500000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
 		collisionvolumeoffsets = "0 0 -1",
-		collisionvolumescales = "48 78 48",
+		collisionvolumescales = "70 90 70",
 		collisionvolumetype = "Box",
 		corpse = "corfmd1_dead",
 		description = "T3 Anti-Nuke",
@@ -50,8 +50,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo",
 		customparams = {
-			buildpic = "talon_requiem.png",
-			faction = "ARM",
+			buildpic = "talon_requiem.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			corfmd1_heap = {

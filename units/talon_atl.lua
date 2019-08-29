@@ -42,8 +42,8 @@ return {
 		unitname = "talon_atl",
 		yardmap = "oooooooooooooooo",
 		customparams = {
-			buildpic = "talon_atl.png",
-			faction = "ARM",
+			buildpic = "talon_atl.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 125000,
 		buildcostmetal = 3590,
 		builder = false,
-		buildpic = "talon_berserker.png",
+		buildpic = "talon_berserker.dds",
 		buildtime = 55000,
 		canattack = true,
 		canguard = true,
@@ -51,8 +51,8 @@ return {
 		unitname = "talon_berserker",
 		upright = true,
 		customparams = {
-			buildpic = "talon_berserker.png",
-			faction = "ARM",
+			buildpic = "talon_berserker.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
@@ -127,7 +127,7 @@ return {
 				impulseboost = 0,
 				impulsefactor = 0,
 				laserflaresize = 10,
-				name = "LightLaser",
+				name = "Talon Gun",
 				noselfdamage = true,
 				range = 620,
 				reloadtime = 0.2,

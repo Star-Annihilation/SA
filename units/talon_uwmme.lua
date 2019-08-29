@@ -10,10 +10,13 @@ return {
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 8,
 		buildinggrounddecalsizey = 8,
-		buildinggrounddecaltype = "armmme_aoplane.dds",
-		buildpic = "talon_uwmme.png",
+		buildinggrounddecaltype = "talon_aoplane.dds",
+		buildpic = "talon_uwmme.dds",
 		buildtime = 35000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON UNDERWATER",
+		collisionvolumeoffsets = "0 -1 0",
+		collisionvolumescales = "58 55 60",
+		collisionvolumetype = "CylY",
 		corpse = "dead",
 		description = "Advanced Metal Extractor / Storage",
 		energyuse = 25,
@@ -47,8 +50,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooooooooooooooooooooo",
 		customparams = {
-			buildpic = "talon_uwmme.png",
-			faction = "ARM",
+			buildpic = "talon_uwmme.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

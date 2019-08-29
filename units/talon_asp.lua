@@ -16,7 +16,7 @@ return {
 		buildtime = 10000,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
 		collisionvolumeoffsets = "0 -10 0",
-		collisionvolumescales = "135 27 135",
+		collisionvolumescales = "60 45 60",
 		collisionvolumetype = "Box",
 		corpse = "dead",
 		description = "Automatically Repairs Aircraft",
@@ -24,8 +24,8 @@ return {
 		energystorage = 100,
 		energyuse = 0,
 		explodeas = "LARGE_BUILDINGEX",
-		footprintx = 6,
-		footprintz = 6,
+		footprintx = 4,
+		footprintz = 4,
 		icontype = "building",
 		idleautoheal = 5,
 		idletime = 1800,
@@ -52,10 +52,10 @@ return {
 		unitname = "talon_asp",
 		usebuildinggrounddecal = true,
 		workertime = 3000,
-		yardmap = "oooooo oooooo oooooo oooooo oooooo oooooo ",
+		yardmap = "oooo oooo oooo oooo",
 		customparams = {
-			buildpic = "talon_asp.png",
-			faction = "ARM",
+			buildpic = "talon_asp.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 109000,
 		buildcostmetal = 7800,
 		builder = false,
-		buildpic = "talon_visitant.png",
+		buildpic = "talon_visitant.dds",
 		buildtime = 75000,
 		canattack = true,
 		canguard = true,
@@ -15,6 +15,9 @@ return {
 		canstop = 1,
 		cantbetransported = true,
 		category = "ALL HOVER HUGE MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON SURFACE",
+		collisionvolumeoffsets = "0 -5 0",
+		collisionvolumescales = "75 55 110",
+		collisionvolumetype = "CylZ",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
 		description = "Very Heavy Battle Gravitytank",
@@ -50,7 +53,8 @@ return {
 		unitname = "talon_visitant",
 		waterline = 7,
 		customparams = {
-			faction = "CORE",
+			buildpic = "talon_visitant.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

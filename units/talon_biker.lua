@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 450,
 		buildcostmetal = 40,
 		builder = false,
-		buildpic = "talon_biker.png",
+		buildpic = "talon_biker.dds",
 		buildtime = 750,
 		canattack = true,
 		canguard = true,
@@ -15,7 +15,7 @@ return {
 		category = "ALL MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL TINY WEAPON SURFACE",
 		corpse = "heap",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "12 20 32",
+		collisionvolumescales = "12 20 28",
 		collisionvolumetype = "Box",
 		defaultmissiontype = "Standby",
 		description = "Scout Infantry",
@@ -58,8 +58,8 @@ return {
 		unitname = "talon_biker",
 		unitrestricted = 150,
 		customparams = {
-			buildpic = "talon_biker.png",
-			faction = "ARM",
+			buildpic = "talon_biker.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			heap = {

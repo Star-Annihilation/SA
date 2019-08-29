@@ -214,11 +214,6 @@ StopMoving()
 	start-script Stopping();
 }
 
-SetMaxReloadTime(Func_Var_1)
-{
-	Static_Var_1 = Func_Var_1 * 2;
-}
-
 RestoreAfterDelay()
 {
 	sleep Static_Var_1;
@@ -273,20 +268,11 @@ AimPrimary(heading, pitch)
 	signal 2;
 	set-signal-mask 2;
 	BAiming = 1;
-	move torso to y-axis heading speed [100.];
-	wait-for-move torso along y-axis;
 	turn torso to y-axis heading speed <200.>;
-	wait-for-turn torso around y-axis;
-	
-	turn rshoulder to x-axis <0.000000> - pitch speed <200.000000>;;
-	turn lshoulder to x-axis <0.000000> - pitch speed <200.000000>;;
+	turn rshoulder to x-axis <0.000000> - pitch speed <200.000000>;
+	turn lshoulder to x-axis <0.000000> - pitch speed <200.000000>;
 	wait-for-turn rshoulder around x-axis;
-	
-	turn lgun to y-axis <-8.> speed <30.>;
-	turn rgun to y-axis <8.> speed <30.>;
-	wait-for-turn rgun around x-axis;
-	wait-for-turn lgun around y-axis;
-	
+	wait-for-turn torso around y-axis;	
 	start-script RestoreAfterDelay();
 	return (1);
 }
@@ -295,32 +281,33 @@ FirePrimary(Func_Var_1)
 {
 	if( Gun1 == 0 )
 	{
-		emit-sfx 1025 from lflare1;
-		move lbarrel1 to z-axis [-0.5] speed [250.];;
-		sleep 100;
+		emit-sfx 1024 from lflare1;
+		move lbarrel1 to z-axis [-0.5] now;
+		sleep 10;
 		move lbarrel1 to z-axis [0.] speed [5.];
 	}
 	if( Gun1 == 1 )
 	{
-		emit-sfx 1025 from rflare1;
-		move rbarrel1 to z-axis [-0.5] speed [250.];;
-		sleep 100;
+		emit-sfx 1024 from rflare1;
+		move rbarrel1 to z-axis [-0.5] now;
+		sleep 10;
 		move rbarrel1 to z-axis [0.] speed [5.];
 	}
 	if( Gun1 == 2 )
 	{
-		emit-sfx 1025 from lflare2;
-		move lbarrel2 to z-axis [-0.5] speed [250.];;
-		sleep 100;
+		emit-sfx 1024 from lflare2;
+		move lbarrel2 to z-axis [-0.5] now;
+		sleep 10;
 		move lbarrel2 to z-axis [0.] speed [5.];
 	}
 	if( Gun1 == 3 )
 	{
-		emit-sfx 1025 from rflare2;
-		move rbarrel2 to z-axis [-0.5] speed [250.];;
-		sleep 100;
+		emit-sfx 1024 from rflare2;
+		move rbarrel2 to z-axis [-0.5] now;
+		sleep 10;
 		move rbarrel2 to z-axis [0.] speed [5.];
 	}
+	
 	++Gun1;
 	if( Gun1 == 4 )
 	{

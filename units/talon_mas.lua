@@ -8,13 +8,13 @@ return {
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 10,
 		buildinggrounddecalsizey = 10,
-		buildinggrounddecaltype = "armmas_aoplane.png",
+		buildinggrounddecaltype = "armmas_aoplane.dds",
 		buildpic = "talon_mas.dds",
 		buildtime = 100000,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON UNDERWATER SURFACE",
 		collisionvolumeoffsets = "0 0 0",
-		collisionvolumescales = "80 112 80",
+		collisionvolumescales = "90 190 90",
 		collisionvolumetest = 1,
 		collisionvolumetype = "CylY",
 		description = "Deep Core Penetration Mine (Metal Extractor), Amphibious",
@@ -46,7 +46,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo ooooooo",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_mas.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

@@ -41,7 +41,8 @@ return {
 		usebuildinggrounddecal = true,
 		yardmap = "oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo oooooooooooooooo ",
 		customparams = {
-			faction = "ARM",
+			buildpic = "talon_elixir.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

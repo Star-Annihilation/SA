@@ -1,5 +1,5 @@
 return {
-	talon_talpax= {
+	talon_talpax = {
 		activatewhenbuilt = true,
 		buildangle = 4899,
 		buildcostenergy = 2120000,
@@ -13,6 +13,9 @@ return {
 		buildtime = 500000,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
+		collisionvolumescales = "150 75 150",
+		collisionvolumetest = 1,
+		collisionvolumetype = "CylY",
 		corpse = "dead",
 		description = "Ultimate Jammer",
 		energyuse = 8000,
@@ -41,7 +44,7 @@ return {
 		yardmap = "oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo oooooooooooo",
 
 		customparams = {
-			faction = "TLL",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

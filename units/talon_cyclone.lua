@@ -9,7 +9,7 @@ return {
 		buildcostenergy = 9520,
 		buildcostmetal = 170,
 		builder = false,
-		buildpic = "talon_cyclone.png",
+		buildpic = "talon_cyclone.dds",
 		buildtime = 9684,
 		canattack = true,
 		canfly = true,
@@ -54,8 +54,8 @@ return {
 		turnrate = 392,
 		unitname = "talon_cyclone",
 		customparams = {
-			buildpic = "talon_cyclone.png",
-			faction = "ARM",
+			buildpic = "talon_cyclone.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

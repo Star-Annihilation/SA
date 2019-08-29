@@ -7,7 +7,7 @@ return {
 		buildcostenergy = 10400,
 		buildcostmetal = 375,
 		builder = false,
-		buildpic = "talon_corsair.png",
+		buildpic = "talon_corsair.dds",
 		buildtime = 20000,
 		canattack = true,
 		canfly = true,
@@ -53,8 +53,8 @@ return {
 		turnrate = 931,
 		unitname = "talon_corsair",
 		customparams = {
-			buildpic = "talon_corsair.png",
-			faction = "ARM",
+			buildpic = "talon_corsair.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

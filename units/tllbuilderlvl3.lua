@@ -27,7 +27,6 @@ return {
 		dontland = 0,
 		energymake = 60,
 		energystorage = 750,
-		energyuse = 30,
 		explodeas = "SHIPBLAST",
 		footprintx = 3,
 		footprintz = 5,

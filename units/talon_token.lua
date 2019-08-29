@@ -6,7 +6,7 @@ return {
 		brakerate = 0.075,
 		buildcostenergy = 2530,
 		buildcostmetal = 80,
-		buildpic = "talon_token.png",
+		buildpic = "talon_token.dds",
 		buildtime = 4000,
 		canattack = true,
 		canfly = true,
@@ -50,8 +50,8 @@ return {
 		unitname = "talon_token",
 		unitrestricted = 200,
 		customparams = {
-			buildpic = "talon_token.png",
-			faction = "ARM",
+			buildpic = "talon_token.dds",
+			faction = "TALON",
 		},
 		sfxtypes = {
 			pieceexplosiongenerators = {

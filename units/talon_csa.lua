@@ -8,7 +8,7 @@ return {
 		buildcostmetal = 1690,
 		builddistance = 60,
 		builder = true,
-		buildpic = "talon_csa.png",
+		buildpic = "talon_csa.dds",
 		buildtime = 25000,
 		canfly = true,
 		canguard = true,
@@ -62,8 +62,8 @@ return {
 			[2] = "amgeo",
 		},
 		customparams = {
-			buildpic = "talon_csa.png",
-			faction = "arm",
+			buildpic = "talon_csa.dds",
+			faction = "TALON",
 		},
 		nanocolor = {
 			[1] = 0.128,

@@ -11,7 +11,7 @@ return {
 		buildinggrounddecalsizex = 4,
 		buildinggrounddecalsizey = 4,
 		buildinggrounddecaltype = "armarad_aoplane.dds",
-		buildpic = "talon_arad.png",
+		buildpic = "talon_arad.dds",
 		buildtime = 12400,
 		canattack = false,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
@@ -48,8 +48,8 @@ return {
 		usepiececollisionvolumes = 1,
 		yardmap = "oooo",
 		customparams = {
-			buildpic = "talon_arad.png",
-			faction = "ARM",
+			buildpic = "talon_arad.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

@@ -8,7 +8,7 @@ return {
 		buildcostenergy = 1050,
 		buildcostmetal = 95,
 		builder = false,
-		buildpic = "talon_frl.png",
+		buildpic = "talon_frl.dds",
 		buildtime = 1800,
 		canattack = true,
 		canstop = 1,
@@ -47,8 +47,8 @@ return {
 		waterline = 0.3,
 		yardmap = "wwwwwwwwwwwwwwww",
 		customparams = {
-			buildpic = "talon_frl.png",
-			faction = "ARM",
+			buildpic = "talon_frl.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {

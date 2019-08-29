@@ -52,8 +52,8 @@ return {
 		turnrate = 350,
 		unitname = "talon_basilisk",
 		customparams = {
-			buildpic = "talon_basilisk.png",
-			faction = "ARM",
+			buildpic = "talon_basilisk.dds",
+			faction = "TALON",
 		},
 		featuredefs = {
 			dead = {
