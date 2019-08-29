@@ -59,7 +59,7 @@ return {
 		waterline = 1,
 		workertime = 1000,
 		buildoptions = {
-			[1] = "afusionplant",
+			[1] = "arm_mech_lab",
 			[2] = "armuwfus1",
 			[3] = "ametalmakerlvl2",
 			[4] = "armses",
@@ -69,8 +69,8 @@ return {
 			[8] = "armsy",
 			[9] = "armasy",
 			[10] = "armesy",
-			[11] = "arm_mech_lab",
-			[12] = "armfnanotc2",
+			[11] = "armfnanotc2",
+			[12] = "armflosh",			
 		},
 		customparams = {
 			buildpic = "armecs.dds",
