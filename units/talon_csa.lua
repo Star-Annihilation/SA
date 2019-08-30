@@ -86,8 +86,9 @@ return {
 			[26] = "talon_esy",
 			[27] = "talon_fnanotc1",
 			[28] = "talon_asonar",
-			[29] = "talon_kernel",
-			[30] = "talon_fhlt",
+			[29] = "talon_atl",
+			[30] = "talon_kernel",
+			[31] = "talon_fhlt",
 		},
 		customparams = {
 			buildpic = "talon_csa.dds",

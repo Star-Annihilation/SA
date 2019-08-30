@@ -77,7 +77,7 @@ return {
 		upright = true,
 		workertime = 300,
 		buildoptions = {
-			[1] = "talon_solar",
+			[1] = "talon_solar",talon_com
 			[2] = "talon_win",
 			[3] = "talon_geo_mini",
 			[4] = "talon_mstor",
@@ -86,8 +86,8 @@ return {
 			[7] = "talon_makr",
 			[8] = "talon_nanotc",
 			[9] = "talon_clone_lab",
-			[10] ="talon_vp",
-			[11] ="talon_ap",
+			[10] = "talon_vp",
+			[11] = "talon_ap",
 			[12] = "talon_drag",
 			[13] = "talon_llt",
 			[14] = "talon_rl",
