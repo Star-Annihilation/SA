@@ -7,23 +7,8 @@ piece  base, Pelvis, Torso, LTarm, LBarm, Flare, RTarm, RBarm,
        Head, LTleg, LBleg, RTleg, RBleg, Rhand, Rfoot, Lfoot,
        Torso2, Lrecoil, Rrecoil, trick, aimturret, aimsleeve, aimflare;
 
-static-var  Static_Var_1, Static_Var_2, Static_Var_3, Static_Var_4, Static_Var_5,
-            Static_Var_6, Static_Var_7, Static_Var_8, Static_Var_9, Static_Var_10;
+static-var  Static_Var_1, Static_Var_2, Static_Var_3, Static_Var_4, Static_Var_5, Static_Var_8, Static_Var_9, Static_Var_10;
 
-
-HitByWeapon()
-{
-	if( get HEALTH > 99 )
-	{
-		hide Head;
-		set ARMORED to 0;
-	}
-	if( get HEALTH < 100 )
-	{
-		show Head;
-		set ARMORED to 1;
-	}
-}
 
 walk()
 {
@@ -212,48 +197,26 @@ MotionControl(moving, aiming, justmoved)
 
 Create()
 {
-	Static_Var_5 = 10000;
+	Static_Var_5 = 2000;
 	Static_Var_10 = 0;
 	hide Flare;
 	Static_Var_2 = 0;
 	Static_Var_3 = 1;
 	start-script MotionControl();
-	Static_Var_6 = 0;
 	Static_Var_1 = 0;
 	Static_Var_9 = 100;
 	Static_Var_8 = 100;
 	turn Torso to y-axis <20.> now;
-	set ARMORED to 1;
-}
-
-SetMaxReloadTime(Func_Var_1)
-{
-	Static_Var_5 = Func_Var_1 * 2;
 }
 
 SweetSpot(piecenum)
 {
-	piecenum = Torso;
+	piecenum = base;
 }
 
 RestoreAfterDelay()
 {
 	sleep Static_Var_5;
-	if( Static_Var_7 > 32760 AND Static_Var_7 < 49322 )
-	{
-		turn Torso to y-axis <270.> speed <180.>;
-		wait-for-turn Torso around y-axis;
-		turn Torso to y-axis <0.> speed <180.>;
-		wait-for-turn Torso around y-axis;
-	}
-	if( Static_Var_7 > 16198 AND Static_Var_7 <= 32760 )
-	{
-		turn Torso to y-axis <90.> speed <180.>;
-		wait-for-turn Torso around y-axis;
-		turn Torso to y-axis <0.> speed <180.>;
-		wait-for-turn Torso around y-axis;
-	}
-	Static_Var_6 = 0;
 	turn Torso to y-axis <20.> speed <180.>;
 	turn aimturret to y-axis <0.> now;
 	turn LBarm to x-axis <0.> speed <150.>;
@@ -288,7 +251,7 @@ QueryPrimary(piecenum)
 
 FirePrimary()
 {
-	emit-sfx 1025 from Flare;
+	emit-sfx 1024 from Flare;
 	turn Lrecoil to x-axis <-15.> speed <180.>;
 	turn Rrecoil to x-axis <-15.> speed <180.>;
 	wait-for-turn Lrecoil around x-axis;
@@ -300,106 +263,6 @@ AimPrimary(heading, pitch)
 {
 	signal 2;
 	set-signal-mask 2;
-	if( Static_Var_10 == 0 )
-	{
-		Static_Var_2 = 1;
-		if( Rand( 1, 6 ) == 1 )
-		{
-			turn LTarm to x-axis <45.> speed <40.>;
-			turn LBarm to x-axis <-45.> speed <40.>;
-			wait-for-turn LBarm around x-axis;
-			turn LBarm to x-axis <0.> speed <20.>;
-			turn LTarm to x-axis <0.> speed <20.>;
-		}
-		if( Rand( 1, 6 ) == 1 )
-		{
-			turn Head to y-axis <45.> speed <120.>;
-			wait-for-turn Head around y-axis;
-			sleep 100;
-			turn Head to y-axis <-45.> speed <240.>;
-			wait-for-turn Head around y-axis;
-			sleep 100;
-			turn Head to y-axis <0.> speed <120.>;
-		}
-		if( Rand( 1, 5 ) == 2 )
-		{
-			turn Head to x-axis <45.> speed <120.>;
-			wait-for-turn Head around x-axis;
-			sleep 100;
-			turn Head to x-axis <0.> speed <120.>;
-		}
-		if( Rand( 1, 4 ) == 3 )
-		{
-			turn RBarm to y-axis <20.> speed <90.>;
-			wait-for-turn RBarm around y-axis;
-			turn RBarm to y-axis <-20.> speed <180.>;
-			wait-for-turn RBarm around y-axis;
-			turn RBarm to y-axis <0.> speed <90.>;
-		}
-	}
-	Static_Var_10 = 1;
-	if( Static_Var_6 >= 0 AND Static_Var_6 < 16380 )
-	{
-		if( heading >= 32760 AND heading < 49140 )
-		{
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-		if( heading >= 49140 AND heading < 65520 )
-		{
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-	}
-	if( Static_Var_6 >= 16380 AND Static_Var_6 < 32760 )
-	{
-		if( heading >= 32760 AND heading < 49140 )
-		{
-			turn Torso to y-axis <90.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-		if( heading >= 49140 AND heading < 65520 )
-		{
-			turn Torso to y-axis <90.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-	}
-	if( Static_Var_6 >= 32760 AND Static_Var_6 < 49140 )
-	{
-		if( heading >= 0 AND heading < 16380 )
-		{
-			turn Torso to y-axis <270.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-		if( heading >= 16380 AND heading < 32760 )
-		{
-			turn Torso to y-axis <270.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-	}
-	if( Static_Var_6 >= 49140 AND Static_Var_6 < 65520 )
-	{
-		if( heading >= 0 AND heading < 16380 )
-		{
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-		if( heading >= 16380 AND heading < 32760 )
-		{
-			turn Torso to y-axis <0.> speed <180.>;
-			wait-for-turn Torso around y-axis;
-		}
-	}
-	Static_Var_7 = Static_Var_6;
-	Static_Var_6 = heading;
 	turn Torso to y-axis heading speed <180.>;
 	turn LBarm to x-axis <0.> - pitch speed <90.>;
 	turn RTarm to x-axis <0.> - pitch speed <90.>;

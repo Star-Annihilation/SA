@@ -1065,6 +1065,10 @@ local morphDefs = {
      		into = 'tllgeo',
 		time = 30,
 	},
+	talon_geo_mini = {
+     		into = 'talon_geo',
+		time = 30,
+	},
 	corprot = {
      		into = 'troman',
 		time = 60,

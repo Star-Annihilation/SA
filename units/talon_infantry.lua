@@ -18,7 +18,7 @@ return {
 		collisionvolumetype = "CylY",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
-		description = "Rapid Kbot",
+		description = "Light Infantry Kbot",
 		explodeas = "SMALL_UNITEX",
 		firestandorders = 1,
 		footprintx = 1,
