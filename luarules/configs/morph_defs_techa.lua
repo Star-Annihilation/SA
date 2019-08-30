@@ -367,6 +367,11 @@ local morphDefs = {
 		into = 'armfor',
 		time = 90,
 	},
+	talon_geo = {
+		into = 'talon_mohogeo',
+		time = 120,
+		tech = 1,
+	},
 	corgeo = {
     	{
 			into = 'cmgeo',
