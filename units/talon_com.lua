@@ -77,7 +77,7 @@ return {
 		upright = true,
 		workertime = 300,
 		buildoptions = {
-			[1] = "talon_solar",talon_com
+			[1] = "talon_solar",
 			[2] = "talon_win",
 			[3] = "talon_geo_mini",
 			[4] = "talon_mstor",
