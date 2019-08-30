@@ -1,7 +1,9 @@
-﻿1.00.00 -> 1.00.01
+﻿0.00.00 -> 1.00.00
 2019-08-18
 
 Balance:
+ - tllcom1 (eco) : increase energyproduction 100 => 150 E/s
+ - Decrease HP for adv rapid bertha (T3) by 20%
  - Dragon Arm & Core : Decrease range. Increase Damage (+25%) and Hp (+100%). Job : defense. (atm, this unit have same job than beam arm or double llt for core). With this balance, dragon will be better to defend low range and not used to expand on battlezone. 
  - Balance Zeus1 : Too op. Decrease HP by 5%. Decrease damage 300 => 200 range 350 => 270. Increase cost by 5%.
  - Balance Cavalier. Range for main weapon 750 => 675. Speed 1.4 => 1.5. Cost reduced by 10%.
@@ -13,10 +15,16 @@ Balance:
   - Increase Timebuild for all T4 nuke by 250%.
   - Fix range for Barret at 2150. (was 2650).
  
-Improvements:
- - Delete temporally Copters (Need to redisign and balance)
+Improvements from last TA version (2019-08-28):
+ - Add TALON faction. T0.5 T1 T1.5 T2 T3 T5 Implemented. Total 200+ new units!
+ - Delete Copters (Need to redisign and rebalance in future)
+ - Rebalance Nano morph. Add Nano for T2 Cons.
+ - Rework many cons panel menu with good order.
+ - Delete Eco structure and add corkrog1 & armbanth1 for T4 RC Cons.
+ - Decrease 15% model : ultimate vulcain, bagger, buzz
  - Add new flammer tank core t1.5 (Remplace corfgbt model). Decrease energycost by 10%.
  - Add new model Akmech
+ - Add new model for cor RC T3
  - Add new T1.5 Cons Veh (tllmando) TLL and delete T1.5 Cons Air (tllhtca)
  - Add new model for cloak bomber
  - Change raptor main weapon. Now blue laser (same damage 2k/s).
