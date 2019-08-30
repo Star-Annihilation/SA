@@ -12,12 +12,13 @@ Balance:
  - Balance T4 Karg. Decrease speed 2.3 => 1.5. (fix same speed than T3 Karg : 1.5). Decrease HP by 20%. Decrease AA damage by 50%. Decrease energycost by 33%. This unit was totally OP attack/defend and not used for all-terrain strategy.
  - Balance T4 Razor. Decrease HP by 20%. Decrease energycost by 33%. Increase speed at 2.3=>2.5. Goal here is to have a rapid unit with high damage. Before, it was same job (speed, damage except shield) than Armpraet but was better.
   - Balance Raptor : Decrease HP by 25%. Decrease speed by 1.7=>1.5. Delete the T4 RC to get it. Decrease range 700 => 675. Decrease damage for missile (more relaod). This unit was very strong (high damage and all terrain) with low cost.  
-  - Increase Timebuild for all T4 nuke by 250%.
-  - Fix range for Barret at 2150. (was 2650).
+ - Increase Timebuild for all T4 nuke by 250%.
+ - Fix range for Barret at 2150. (was 2650).
  
 Improvements from last TA version (2019-08-28):
  - Add TALON faction. T0.5 T1 T1.5 T2 T3 T5 Implemented. Total 200+ new units!
  - Delete Copters (Need to redisign and rebalance in future)
+ - Delete Armorclass Raider. Was unknown from community. Maybe remplace it by Hover armorclass in future
  - Rebalance Nano morph. Add Nano for T2 Cons.
  - Rework many cons panel menu with good order.
  - Delete Eco structure and add corkrog1 & armbanth1 for T4 RC Cons.
