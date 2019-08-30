@@ -45,6 +45,7 @@ talon_clone_lab = {
 		radaremitheight = 25,
 		seismicsignature = 0,
 		selfdestructas = "LARGE_BUILDING",
+		shownanospray = false,
 		sightdistance = 289,
 		standingfireorder = 2,
 		standingmoveorder = 1,
@@ -63,7 +64,6 @@ talon_clone_lab = {
 			[5] = "talon_sniper",
 			[6] = "talon_biker",
 			[7] = "talon_sphere",
-
 		},
 		customparams = {
 			buildpic = "talon_clone_lab.dds",

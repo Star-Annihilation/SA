@@ -65,6 +65,7 @@ return {
 		selfdestructas = "COMMANDER_BLAST1",
 		selfdestructcountdown = 4,
 		showplayername = true,
+		shownanospray = false,		
 		sightdistance = 450,
 		sonardistance = 300,
 		standingfireorder = 2,

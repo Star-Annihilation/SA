@@ -41,6 +41,7 @@ return {
 		radardistance = 0,
 		radaremitheight = 50,
 		selfdestructas = "BANTHA_NUKE",
+		shownanospray = false,
 		sightdistance = 220,
 		stealth = true,
 		unitname = "talon_covertopscentre",

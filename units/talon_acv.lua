@@ -49,6 +49,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "BIG_UNIT",
 		sightdistance = 290,
+		shownanospray = false,
 		standingmoveorder = 1,
 		steeringmode = 1,
 		terraformspeed = 750,

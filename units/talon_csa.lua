@@ -49,6 +49,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "BIG_UNIT_VTOL",
 		sightdistance = 364,
+		shownanospray = false,
 		standingmoveorder = 1,
 		steeringmode = 1,
 		terraformspeed = 180,

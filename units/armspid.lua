@@ -44,6 +44,7 @@ return {
 		selfdestructas = "BIG_UNIT",
 		shownanospray = false,
 		sightdistance = 600,
+		shownanospray = false,
 		standingmoveorder = 1,
 		stealth = true,
 		steeringmode = 1,
