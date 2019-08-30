@@ -495,12 +495,17 @@ local morphDefs = {
 	},
 	corbuzz = {
 		into = 'corbuzz2',
-		time = 30,
+		time = 45,
 		xp = 0.15,
 	},
 	tllhydre = {
 		into = 'tllhydre2',
-		time = 30,
+		time = 45,
+		xp = 0.15,
+	},
+	talon_veloute = {
+		into = 'talon_veloute2',
+		time = 45,
 		xp = 0.15,
 	},
 	arm_immolator = {
@@ -1277,6 +1282,15 @@ local morphDefs = {
 		into = 'tllleopard',
 	  	time = 60,
 		xp = 0.35,
+	},
+	talon_psyker = {
+		into = 'talon_psyker1',
+	  	time = 30,
+	},
+	talon_whinestone  = {
+		into = 'talon_sapphire',
+	  	time = 40,
+		xp = 0.40,
 	},
 }
 

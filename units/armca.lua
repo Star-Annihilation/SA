@@ -62,7 +62,6 @@ return {
 			[4] = "armgeo",
 			[5] = "armmstor",
 			[6] = "armestor",
-			--[7] = "armcp",
 			[7] = "armmex",
 			[8] = "armamex",
 			[9] = "armmakr",
