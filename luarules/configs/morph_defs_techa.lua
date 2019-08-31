@@ -431,12 +431,22 @@ local morphDefs = {
 		time = 120,
 		tech = 2,
 	},
+	talon_gate = {
+		into = 'talon_gate1',
+		time = 120,
+		tech = 2,
+	},
 	armrad = {
 		into = 'armrad1',
 		time = 20,
 	},
 	armrad1 = {
 		into = 'armarad',
+		time = 30,
+		tech = 1,
+	},
+	talon_rad = {
+		into = 'talon_arad',
 		time = 30,
 		tech = 1,
 	},
