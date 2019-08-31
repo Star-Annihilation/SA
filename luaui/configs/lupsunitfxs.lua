@@ -225,7 +225,7 @@ effectUnitDefs = {
   },
   talon_gate = {
     {class='Bursts',options=shieldBursts1000},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=1000, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=400, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   talon_gate1 = {
     {class='Bursts',options=shieldBursts1000},
@@ -233,7 +233,7 @@ effectUnitDefs = {
   },
   talon_obelisk = {
     {class='Bursts',options=shieldBursts1000},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=1000, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=400, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   --// OTHER //--------------------------
  armmex1 = {
