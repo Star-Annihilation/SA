@@ -1,18 +1,38 @@
-Many files provides from Tech Annihilation. Please follow this link : https://github.com/techannihilation/TA.
-
-----------------------------------------------------------------------------------
-
+Many files provides from Tech Annihilation. Please follow this link for copyrights and in term of use : https://github.com/techannihilation/TA.
+##### --- --- #####
 Credits : Some Models are in this mod are from TA:Escalation i would like to thanks archdragon,
-boogie, Wotan and the TheRegisteredOne for letting us use these models. Please follow this link : taesc.tauniverse.com to see rights about these units.
-
-List from TAESC (in Work) : 
-- T3 Construction Air Arm/Core
-- T4 ArmOlympus
+boogie, Wotan and the TheRegisteredOne for letting us use these models. Please follow this link : taesc.tauniverse.com to see rights about these units. List from TAESC : 
+- T3 Construction Air & Vehicle & Ship Arm/Core
+- T3/T4 Fusion Arm / Core
+- T4 ArmOlympus, T4 Spider
 - T4 MetalMaker Arm/Core
 - T3 Jammer Arm/Core
 - T3 Extractor Metal Arm/Core
-- T3 Lighting Tank Arm
+- T3 Lighting Tank Arm (chimera)
 - T3 SubMarines Arm/Core
 - T1.5 Bertha Arm/Core
 - T3 Artillery Overlord
-- Others (in work)
+- Arm Scout Plane (spy Air plane with TAESC)
+- Akmech (armraptor in TAESC)
+##### --- --- #####
+TALON faction models provides from community.
+All Bos/Cob have been created by skymyj. Please Ask permission to skymyj@hotmail.com if you want to use them.
+Thorgasm created the TALON Logo (.TGA). Ask him for permission if you want use it.
+##### --- --- #####
+Many models have been created by M1garland (.wings). Skymyj import them in 3D0, add Textures and created Bos/Cob scripts. The list is here : 
+- T5 Cruiser : tllzeppelin, tllbarbarus
+- T3.5 Ship : tllcaps
+- Plasma gun : tll_immolator, tlllrpc1
+- T4 unit : tllbahamut, tllsaurus
+- AA Tower : tlltetanos
+- T2/T3 units : tllinsulator, tllcrawler, tllleopard
+- T4 Cons : tllmarmelade
+- T2 TLL Hover (tllhcrus)
+- Core T1 tank flammer : corgfbt
+- T4 TLL Fusion
+
+Please Ask permission to skymyj@hotmail.com if you want to use them.
+##### --- --- #####
+Bitmaps sfume1.png, sfume2.png, slightning1.png are copyright by [KING]Silver.
+Sounds laser_1.wav,sdrone1.wav,selectricity1.wav, selectricity2.wav, sonar_1.wav, zeus_hit_1.wav are copyright  by [KING]Silver.
+[KING]Silver gave full right to [BoS]nixtux of ownership of his artwork (bitmaps/sounds), please ask permission before using them.
