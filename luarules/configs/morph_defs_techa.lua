@@ -1306,6 +1306,10 @@ local morphDefs = {
 		into = 'talon_psyker1',
 	  	time = 30,
 	},
+	talon_ack = {
+		into = 'talon_ack1',
+	  	time = 60,
+	},
 	talon_whinestone  = {
 		into = 'talon_sapphire',
 	  	time = 40,
