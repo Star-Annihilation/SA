@@ -1,6 +1,6 @@
 return {
 	talon_topaz = {
-		acceleration = 0.85,
+		acceleration = 0.08,
 		brakerate = 0.8,
 		buildcostenergy = 865,
 		buildcostmetal = 95,
@@ -29,9 +29,9 @@ return {
 		losemitheight = 25,
 		maneuverleashlength = 640,
 		mass = 85,
-		maxdamage = 395,
+		maxdamage = 345,
 		maxslope = 26,
-		maxvelocity = 5,
+		maxvelocity = 4.5,
 		maxwaterdepth = 12,
 		mobilestandorders = 1,
 		movementclass = "TANK2",
@@ -54,7 +54,7 @@ return {
 		turninplace = 0,
 		turninplaceanglelimit = 140,
 		turninplacespeedlimit = 4.224,
-		turnrate = 750,
+		turnrate = 400,
 		unitname = "talon_topaz",
 		unitrestricted = 150,
 		customparams = {
@@ -156,8 +156,7 @@ return {
 				weapontype = "BeamLaser",
 				weaponvelocity = 800,
 				damage = {
-					default = 35,
-					raider_resistant = 17.5,
+					default = 20,
 					subs = 5,
 				},
 			},
