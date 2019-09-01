@@ -496,11 +496,11 @@ local morphDefs = {
 	},
 	correch2 = {
 		into = 'correch3',
-		time = 100,
+		time = 75,
 	},
 	correch3 = {
 		into = 'correch4',
-		time = 200,
+		time = 100,
 	},
 	armrech1 = {
 		into = 'armrech2',
@@ -508,11 +508,11 @@ local morphDefs = {
 	},
 	armrech2 = {
 		into = 'armrech3',
-		time = 100,
+		time = 75,
 	},
 	armrech3 = {
 		into = 'armrech4',
-		time = 200,
+		time = 100,
 	},
 	armvulc = {
 		into = 'armvulc2',
