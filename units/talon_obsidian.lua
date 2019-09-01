@@ -18,7 +18,7 @@ return {
 		collisionvolumetype = "Box",
 		corpse = "dead",
 		defaultmissiontype = "Standby",
-		description = "Medium Combat Riot Tank",
+		description = "Medium Combat Tank",
 		explodeas = "BIG_UNITEX",
 		firestandorders = 1,
 		footprintx = 3,
