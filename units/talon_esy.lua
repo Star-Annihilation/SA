@@ -41,6 +41,7 @@ return {
 		radardistance = 500,
 		radaremitheight = 73,
 		selfdestructas = "ATOMIC_BLAST",
+		shownanospray = false,
 		sightdistance = 300,
 		standingfireorder = 2,
 		standingmoveorder = 1,
@@ -53,7 +54,6 @@ return {
 			[1] = "talon_lancelet",
 			[2] = "talon_frigate",
 			[3] = "talon_dread",
-
 		},
 		customparams = {
 			buildpic = "talon_asy.dds",
