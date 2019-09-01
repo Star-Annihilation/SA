@@ -127,6 +127,13 @@ local ShieldUnits = {
   [UnitDefNames["irritator"].id] = true,
   [UnitDefNames["tllgorgon"].id] = true,
   [UnitDefNames["tllmako"].id] = true,
+  --Talon
+  [UnitDefNames["talon_com5"].id] = true,
+  [UnitDefNames["talon_com6"].id] = true,
+  [UnitDefNames["talon_com7"].id] = true,
+  [UnitDefNames["talon_gate"].id] = true,
+  [UnitDefNames["talon_gate1"].id] = true,
+  [UnitDefNames["talon_obelisk"].id] = true,
 }
 
 local function GetVisibleSearch(x, z, search)
