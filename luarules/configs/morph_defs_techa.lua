@@ -280,6 +280,11 @@ local morphDefs = {
 		time = 40,
 		tech = 2,
 	},
+	talon_damascus = {
+		into = 'talon_damascus1',
+		time = 40,
+		tech = 2,
+	},
 	armscab = {
 		into = 'armscab1',
 		time = 80,
@@ -337,6 +342,12 @@ local morphDefs = {
 	},
 	tllsilo = {
 		into = 'tllsilo1',
+		tech = 2,
+		time = 30,
+		xp = 0.15,
+	},
+	talon_silo = {
+		into = 'talon_silo1',
 		tech = 2,
 		time = 30,
 		xp = 0.15,
@@ -1315,6 +1326,7 @@ local morphDefs = {
 	  	time = 40,
 		xp = 0.40,
 	},
+	
 }
 
 --

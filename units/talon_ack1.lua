@@ -1,5 +1,5 @@
 return {
-	talon_ack = {
+	talon_ack1 = {
 		acceleration = 0.12,
 		brakerate = 1.14,
 		buildcostenergy = 50530,
