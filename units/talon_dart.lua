@@ -40,7 +40,7 @@ return {
 		objectname = "talon_dart",
 		radardistance = 1000,
 		seismicsignature = 0,
-		selfdestructas = "SPYBOMBX",
+		selfdestructas = "BIG_UNITEX",
 		sightdistance = 1200,
 		sonardistance = 800,
 		standingmoveorder = 1,

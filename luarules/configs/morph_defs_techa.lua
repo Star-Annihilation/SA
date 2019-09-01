@@ -989,32 +989,32 @@ local morphDefs = {
 		time = 90,
 	},
 	talon_nanotc = {	 
-		into = 'armnanotc1',
+		into = 'talon_nanotc1',
 		time = 30,
 		tech = 1,
 	},
 	talon_nanotc1 = {
-		into = 'armnanotc2',
+		into = 'talon_nanotc2',
 		tech = 2,
 		time = 60,
 	},
 	talon_nanotc2 = {
-		into = 'armnanotc3',
+		into = 'talon_nanotc3',
 		tech = 3,
 		time = 90,
 	},
 	talon_fnanotc = {
-		into = 'armfnanotc1',
+		into = 'talon_fnanotc1',
 		time = 30,
 		tech = 1,
 	},
 	talon_fnanotc1 = {
-		into = 'armfnanotc2',
+		into = 'talon_fnanotc2',
 		tech = 2,
 		time = 60,
 	},
 	talon_fnanotc2 = {
-		into = 'armfnanotc3',
+		into = 'talon_fnanotc3',
 		tech = 3,
 		time = 90,
 	},
