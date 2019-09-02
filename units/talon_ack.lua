@@ -7,7 +7,7 @@ return {
 		builddistance = 225,
 		builder = true,
 		buildpic = "talon_ack.dds",
-		buildtime = 4650
+		buildtime = 4650,
 		canguard = true,
 		canmove = true,
 		canpatrol = true,

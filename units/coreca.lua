@@ -57,7 +57,7 @@ return {
 		turninplacespeedlimit = 3.3,
 		turnrate = 100,
 		unitname = "coreca",
-		workertime = 800,
+		workertime = 400,
 		buildoptions = {
 			[1] = "cfusionplant",
 			[2] = "coremex",

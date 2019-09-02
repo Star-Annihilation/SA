@@ -74,7 +74,7 @@ return {
 			[7] = "talon_avp",
 			[8] = "talon_evp",
 			[9] = "talon_nanotc1",
-			[10] = "talon_targ",
+			--[10] = "talon_targ",
 			[11] = "talon_sd",
 			[12] = "talon_gate",
 			[13] = "talon_obelisk",

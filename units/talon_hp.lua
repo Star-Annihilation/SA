@@ -8,7 +8,7 @@ return {
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 9,
 		buildinggrounddecalsizey = 8,
-		buildinggrounddecaltype = "armalab_aoplane.dds",
+		buildinggrounddecaltype = "talon_aoplane.dds",
 		buildpic = "talon_hp.dds",
 		buildtime = 12800,
 		canmove = true,

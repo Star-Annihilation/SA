@@ -7,7 +7,7 @@ return {
 		builddistance = 225,
 		builder = true,
 		buildpic = "talon_ack1.dds",
-		buildtime = 4650
+		buildtime = 4650,
 		canguard = true,
 		canmove = true,
 		canpatrol = true,
@@ -70,7 +70,7 @@ return {
 			[7] = "talon_alab",
 			[8] = "talon_elab",
 			[9] = "talon_nanotc1",
-			[10] = "talon_targ",
+			--[10] = "talon_targ",
 			[11] = "talon_sd",
 			[12] = "talon_gate",
 			[13] = "talon_obelisk",

@@ -53,7 +53,7 @@ return {
 		turninplacespeedlimit = 3.96,
 		turnrate = 145,
 		unitname = "tlleca",
-		workertime = 725,
+		workertime = 375,
 		buildoptions = {
 			[1] = "tllmegacoldfus",
 			[2] = "tllemex",

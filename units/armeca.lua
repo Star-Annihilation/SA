@@ -57,7 +57,7 @@ return {
 		turninplacespeedlimit = 4.092,
 		turnrate = 175,
 		unitname = "armeca",
-		workertime = 650,
+		workertime = 350,
 		buildoptions = {
 			[1] = "afusionplant",
 			[2] = "armemex",
