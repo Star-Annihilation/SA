@@ -6,7 +6,7 @@ return {
 		buildcostmetal = 1735,
 		builddistance = 225,
 		builder = true,
-		buildpic = "talon_ack.dds",
+		buildpic = "talon_ack1.dds",
 		buildtime = 4650
 		canguard = true,
 		canmove = true,
@@ -81,7 +81,7 @@ return {
 			[18] = "talon_veloute",
 		},
 		customparams = {
-			buildpic = "talon_ack.dds",
+			buildpic = "talon_ack1.dds",
 			faction = "TALON",
 		},
 		featuredefs = {

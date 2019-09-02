@@ -10,7 +10,7 @@ return {
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 5,
 		buildinggrounddecalsizey = 5,
-		--buildinggrounddecaltype = "armmex_aoplane.dds",
+		buildinggrounddecaltype = "talon_aoplane.dds",
 		buildpic = "talon_mex.dds",
 		buildtime = 1800,
 		category = "ALL NOTDEFENSE NOTHOVERNOTVTOL NOTMOBILE NOTSUB NOTSUBNOTSHIP NOTVTOL NOTWEAPON SURFACE",
