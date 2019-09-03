@@ -3,7 +3,7 @@
 #include "sfxtype.h"
 #include "exptype.h"
 
-piece  base, winga, wingb, rfin, lfin, nose, body, Rhull, Lhull;
+piece  base, winga, wingb, rfin, lfin, nosea, body, Rhull, Lhull, emit;
 
 static-var  Static_Var_1, Static_Var_2;
 
@@ -123,7 +123,7 @@ StopBuilding()
 
 QueryNanoPiece(piecenum)
 {
-	piecenum = base;
+	piecenum = emit;
 }
 
 SweetSpot(piecenum)
@@ -139,7 +139,7 @@ Killed(severity, corpsetype)
 		explode base type NOHEATCLOUD;
 		explode rfin type NOHEATCLOUD;
 		explode lfin type NOHEATCLOUD;
-		explode nose type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
+		explode nosea type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 		explode winga type NOHEATCLOUD;
 		explode wingb type NOHEATCLOUD;
 		return (corpsetype);
@@ -150,7 +150,7 @@ Killed(severity, corpsetype)
 		explode base type NOHEATCLOUD;
 		explode rfin type FALL | NOHEATCLOUD;
 		explode lfin type FALL | NOHEATCLOUD;
-		explode nose type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
+		explode nosea type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 		explode winga type FALL | NOHEATCLOUD;
 		explode wingb type SHATTER | NOHEATCLOUD;
 		return (corpsetype);
@@ -161,7 +161,7 @@ Killed(severity, corpsetype)
 		explode base type NOHEATCLOUD;
 		explode rfin type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 		explode lfin type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
-		explode nose type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
+		explode nosea type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 		explode winga type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 		explode wingb type SHATTER | NOHEATCLOUD;
 		return (corpsetype);
@@ -170,7 +170,7 @@ Killed(severity, corpsetype)
 	explode base type NOHEATCLOUD;
 	explode rfin type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 	explode lfin type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
-	explode nose type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
+	explode nosea type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 	explode winga type FALL | SMOKE | FIRE | EXPLODE_ON_HIT | NOHEATCLOUD;
 	explode wingb type SHATTER | EXPLODE_ON_HIT | NOHEATCLOUD;
 	return (corpsetype);

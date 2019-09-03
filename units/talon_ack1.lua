@@ -46,7 +46,7 @@ return {
 		radardistance = 50,
 		radaremitheight = 25,
 		seismicsignature = 0,
-		scrip = "talon_ack.cob",
+		script = "talon_ack.cob",
 		selfdestructas = "BIG_UNIT",
 		sightdistance = 325,
 		shownanospray = false,
@@ -59,7 +59,7 @@ return {
 		turnrate = 990,
 		unitname = "talon_ack1",
 		upright = true,
-		workertime = 300
+		workertime = 300,
 		buildoptions = {
 			[1] = "talon_ckfus",
 			[2] = "talon_afus",
