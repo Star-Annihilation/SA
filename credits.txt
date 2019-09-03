@@ -20,16 +20,32 @@ All Bos/Cob have been created by skymyj. Please Ask permission to skymyj@hotmail
 Thorgasm created the TALON Logo (.TGA). Ask him for permission if you want use it.
 ##### --- --- #####
 Many models have been created by M1garland (.wings). Skymyj import them in 3D0, add Textures and created Bos/Cob scripts. The list is here : 
+**Model & Script** 
+- T1 Arm/Core LLT1
+- T1 Arm/Core RL1
+- TLLHydre Tllhydre1
+- T3 Bertha/Corint
+- T1/T2/T3/T4 Arm/Core Tech Center
+- Arm/Core builderlvl2 builderlvl3
 - T5 Cruiser : tllzeppelin, tllbarbarus
 - T3.5 Ship : tllcaps
 - Plasma gun : tll_immolator, tlllrpc1
-- T4 unit : tllbahamut, tllsaurus
+- T4 tllbahamut
+- T4 tllsaurus
 - AA Tower : tlltetanos
 - T2/T3 units : tllinsulator, tllcrawler, tllleopard
 - T4 Cons : tllmarmelade
 - T2 TLL Hover (tllhcrus)
 - Core T1 tank flammer : corgfbt
-- T4 TLL Fusion
+- T4 TLL Fusion (tllefus)
+- T3 Core Mex
+- T4 corbuzz1
+- tllmando
+**Only 3do Model** 
+- Morphed unit t1 : tllprivate1,  tllfireraizer,  tllpbot, tllanouncer
+- Arm/Core/TLL Nuke1 model               
+- Core Antinuke model 
+- tllmetalmakerlvl1
 
 Please Ask permission to skymyj@hotmail.com if you want to use them.
 ##### --- --- #####
