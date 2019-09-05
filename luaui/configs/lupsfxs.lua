@@ -158,6 +158,26 @@ exoarmBursts = {
   count      = 4,
 }
 
+shieldBurstsObelisk = {
+  layer      = -35,
+  life       = math.huge,
+  piece      = "base",
+  rotSpeed   = 0.25,
+  rotSpread  = 0,
+  arc        = 25,
+  arcSpread  = 0,
+  size       = 400,
+  sizeSpread = 50,
+  texture    = "bitmaps/GPL/Lups/shieldbursts5.png",  
+  colormap   = {{0.1, 0.55, 1, 0.1}, {1, 0.2, 0.2, 0.1}},
+  directional= true,
+  repeatEffect = true,
+  noIconDraw = true,
+  disableabovelevel = 3,
+  priority   = 3,
+  count      = 8,
+}
+
 armsmcBursts = {
   layer      = -35,
   life       = math.huge,
@@ -423,7 +443,30 @@ plasmaball_fusion = {
   noIconDraw = true,
   priority   = 1,
   }
-   
+
+-- TALON
+sunlight_fusion = {
+  speed        = 0,
+  speedSpread  = 0,
+  layer        = -36,
+  life         = 100,
+  lifeSpread   = 80,
+  partpos      = "0,0,0",
+  rotSpeed     = 0.1,
+  rotFactor    = 0.5,
+  rotFactorSpread = -2.0,
+  rotairdrag   = 0.99,
+  rotSpread    = 360,
+  sizeExp      = -2,
+  sizeSpread   = -10,
+  sizeGrowth   = -1,
+  emitVector   = {0,0,0},
+  emitRotSpread = 360,
+  texture      = 'bitmaps/techa_artwork/sunlight1.png',
+  repeatEffect = true,
+  noIconDraw = true,
+  priority   = 1,
+  }
 ----------------------------------------------------------------------------
 -- Other -------------------------------------------------------------------
 ----------------------------------------------------------------------------

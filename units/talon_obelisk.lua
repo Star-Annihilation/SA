@@ -53,6 +53,8 @@ return {
 		customparams = {
 			buildpic = "talon_obelisk.dds",
 			faction = "TALON",
+			shield_power = 7500,
+			shield_radius = 400,
 		},
 		featuredefs = {
 			heap = {

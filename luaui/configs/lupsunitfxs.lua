@@ -3,9 +3,22 @@
 
 effectUnitDefs = {
  --// FUSIONS //--------------------------
-  cafus = {
+  talon_ckfus = {
+	{class='SimpleParticles2', options=MergeTable({pos={0,40,6}, delay=0, size=60, count=3, colormap={{0.1, 0.9, 1.0, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
+	{class='SimpleParticles2', options=MergeTable({pos={0,40,6}, delay=60, size=40, count=2, colormap={{0.6, 1.0, 0.70, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
+	{class='ShieldJitter',options={life=math.huge, priority=2, pos={0,40,6}, size=16, precision=22, repeatEffect=true}},
+
+},
+talon_afus = {
+	{class='SimpleParticles2', options=MergeTable({pos={0,55,10}, delay=0, size=80, count=3, colormap={{0.1, 0.9, 1.0, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
+	{class='SimpleParticles2', options=MergeTable({pos={0,55,10}, delay=60, size=55, count=2, colormap={{0.6, 1.0, 0.70, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
+	{class='ShieldJitter',options={life=math.huge, priority=2, pos={0,55,10}, size=20, precision=22, repeatEffect=true}},
+
+},
+
+cafus = {
     {class='SimpleParticles2', options=MergeTable({pos={0,58.9,-4.5}, priority=1, delay=0, size=85, count=3, colormap={{0.1, 0.1, 0.4, 0.005}, {0.2, 0.2, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},plasmaball_fusion)},
-    {class='SimpleParticles2', options=MergeTable({pos={0,58.9,-4,5}, priority=1, delay=40, size=85, count=3, colormap={{0.1, 0.1, 0.4, 0.005}, {0.2, 0.2, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},plasmaball_fusion)},
+    {class='SimpleParticles2', options=MergeTable({pos={0,58.9,-4,5}, priority=1, delay=25, size=50, count=3, colormap={{0.1, 0.1, 0.4, 0.005}, {0.2, 0.2, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},plasmaball_fusion)},
     {class='ShieldJitter',options={priority=2,layer=-16, life=math.huge, pos={0,58.9,-4.5}, size=24.5, precision=22, repeatEffect=true}},
     {class='GroundFlash',options=groundFlashBlue},
   },
@@ -223,7 +236,11 @@ effectUnitDefs = {
     {class='Bursts',options=shieldBursts1000},
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=1000, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
-  talon_gate = {
+talon_gate2 = {
+    {class='Bursts',options=shieldBursts340},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=340, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+  },
+talon_gate = {
     {class='Bursts',options=shieldBursts1000},
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=400, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
@@ -232,7 +249,7 @@ effectUnitDefs = {
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=1000, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   talon_obelisk = {
-    {class='Bursts',options=shieldBursts1000},
+    {class='Bursts',options=exoarmBursts},
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=400, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   --// OTHER //--------------------------

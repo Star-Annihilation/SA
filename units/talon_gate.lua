@@ -52,6 +52,8 @@ return {
 		customparams = {
 			buildpic = "talon_gate.dds",
 			faction = "TALON",
+			shield_power = 7500,
+			shield_radius = 400,
 		},
 		featuredefs = {
 			dead = {

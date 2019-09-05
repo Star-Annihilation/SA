@@ -110,8 +110,14 @@ return {
 		},
 		customparams = {
 			buildpic = "talon_com5.dds",
+			canjump = "1",
 			faction = "TALON",
 			iscommander = true,
+			paralyzemultiplier = 0.025,
+			providetech = "Battle Commander,Assault Commander",
+			shield_emit_height = 10,
+			shield_power = 900,
+			shield_radius = 100,
 		},
 		featuredefs = {
 			["8_dead"] = {

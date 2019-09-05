@@ -83,13 +83,10 @@ Create()
 	hide trueglow;
 	hide flareglow;
 	start-script SmokeUnit();
-	while( get BUILD_PERCENT_LEFT )
-	{
-		sleep 1000;
-	}
-	spin crystal around y-axis speed <100.>;
-	start-script CloakControl();
-	start-script sharing();
+
+//	spin crystal around y-axis speed <100.>;
+//	start-script CloakControl();
+//	start-script sharing();
 }
 
 SweetSpot(piecenum)
