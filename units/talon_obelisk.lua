@@ -53,8 +53,10 @@ return {
 		customparams = {
 			buildpic = "talon_obelisk.dds",
 			faction = "TALON",
+			shield_color1 = "{{0.05, 0.4, 1, 0.3}, {1, 0.2, 0.2, 0.2}}",
+			shield_emit_height = 68,
 			shield_power = 7500,
-			shield_radius = 400,
+			shield_radius = 250,
 		},
 		featuredefs = {
 			heap = {
@@ -116,7 +118,7 @@ return {
 				shieldpower = 10000,
 				shieldpowerregen = 100,
 				shieldpowerregenenergy = 1000,
-				shieldradius = 300,
+				shieldradius = 250,
 				shieldrepulser = true,
 				smartshield = true,
 				soundhitwet = "sizzle",

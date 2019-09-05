@@ -189,6 +189,7 @@ cafus = {
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=230, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   corcrab = {
+    {class='ShieldSphere',options=corcrabSphere},
     {class='Bursts',options=corcrabBursts},
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=180, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
@@ -197,16 +198,16 @@ cafus = {
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=230, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   armgate2 = {
-    {class='Bursts',options=shieldBursts340},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=340, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='Bursts',options=shieldBursts300},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=300, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   corgate2 = {
-    {class='Bursts',options=shieldBursts340},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=340, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='Bursts',options=shieldBursts300},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=300, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   tllgate2 = {
-    {class='Bursts',options=shieldBursts340},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=340, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='Bursts',options=shieldBursts300},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=300, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   armgate = {
     {class='Bursts',options=shieldBursts400},
@@ -237,8 +238,8 @@ cafus = {
     {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=1000, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
 talon_gate2 = {
-    {class='Bursts',options=shieldBursts340},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=340, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='Bursts',options=shieldBursts300},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=300, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
 talon_gate = {
     {class='Bursts',options=shieldBursts1000},
@@ -250,7 +251,7 @@ talon_gate = {
   },
   talon_obelisk = {
     {class='Bursts',options=exoarmBursts},
-    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=400, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
+    {class='ShieldJitter', options={delay=0,life=math.huge, priority=2, pos={0,20,0.0}, size=350, precision=0, noIconDraw = true, strength = 0.001, repeatEffect=true}},
   },
   --// OTHER //--------------------------
  armmex1 = {

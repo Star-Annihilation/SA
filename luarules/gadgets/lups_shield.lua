@@ -133,6 +133,7 @@ local ShieldUnits = {
   [UnitDefNames["talon_com7"].id] = true,
   [UnitDefNames["talon_gate"].id] = true,
   [UnitDefNames["talon_gate1"].id] = true,
+  [UnitDefNames["talon_gate2"].id] = true,
   [UnitDefNames["talon_obelisk"].id] = true,
 }
 

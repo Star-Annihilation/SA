@@ -5,7 +5,7 @@
 
 piece  base, body, gun;
 
-static-var  Static_Var_1, statechg_DesiredState, statechg_StateChanging;
+static-var  Static_Var_1, statechg_DesiredState, statechg_StateChanging, shield_pos;
 
 
 SmokeUnit(healthpercent, sleeptime, smoketype)
@@ -108,7 +108,7 @@ FirePrimary()
 
 QueryPrimary(piecenum)
 {
-	piecenum = gun;
+	piecenum = shield_pos;
 }
 
 AimFromPrimary(piecenum)

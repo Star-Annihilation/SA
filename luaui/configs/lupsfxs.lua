@@ -119,6 +119,16 @@ tllgorgonSphere = {
   repeatEffect=true
 }
 
+corcrabSphere = {
+  layer=-30,
+  life=20,
+  piece="dome",
+  size=11,
+  colormap1 = { {0,0.65,0, 0.80},{0,0.75,0, 0.8},{0,0.65,0, 0.8},{0,0.75,0, 0.80} },
+  colormap2 = { {0.89, 0.99, 0, 0.20},{0.99, 0.89, 0, 0.20},{0.89, 0.99, 0, 0.20},{0.99, 0.89, 0, 0.20} },
+  repeatEffect=true
+}
+
 corsfusBursts = {
   layer      = -35,
   life       = math.huge,
@@ -156,26 +166,6 @@ exoarmBursts = {
   disableabovelevel = 3,
   priority   = 3,
   count      = 4,
-}
-
-shieldBurstsObelisk = {
-  layer      = -35,
-  life       = math.huge,
-  piece      = "base",
-  rotSpeed   = 0.25,
-  rotSpread  = 0,
-  arc        = 25,
-  arcSpread  = 0,
-  size       = 400,
-  sizeSpread = 50,
-  texture    = "bitmaps/GPL/Lups/shieldbursts5.png",  
-  colormap   = {{0.1, 0.55, 1, 0.1}, {1, 0.2, 0.2, 0.1}},
-  directional= true,
-  repeatEffect = true,
-  noIconDraw = true,
-  disableabovelevel = 3,
-  priority   = 3,
-  count      = 8,
 }
 
 armsmcBursts = {
@@ -358,7 +348,7 @@ shieldBursts250 = {
   count      = 4,
 }
 
-shieldBursts340 = {
+shieldBursts300 = {
   layer      = -35,
   life       = math.huge,
   piece      = "base",
@@ -366,7 +356,7 @@ shieldBursts340 = {
   rotSpread  = 0,
   arc        = 50,
   arcSpread  = 0,
-  size       = 340,
+  size       = 300,
   sizeSpread = 50,
   texture    = "bitmaps/GPL/Lups/shieldbursts5.png",
   colormap   = {{0.2, 1, 0.2, 0.1}, {1, 0.2, 0.2, 0.1}},

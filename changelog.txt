@@ -2,6 +2,7 @@
 2019-08-18
 
 Balance:
+ - Decrease T1 shieldradius 340 => 300. Increase Powershield 2900 => 3000.
  - tllcom1 (eco) : increase energyproduction 100 => 150 E/s
  - Decrease HP for adv rapid bertha (T3) by 20%
  - Dragon Arm & Core : Decrease range. Increase Damage (+25%) and Hp (+100%). Job : defense. (atm, this unit have same job than beam arm or double llt for core). With this balance, dragon will be better to defend low range and not used to expand on battlezone. 
@@ -34,7 +35,7 @@ Improvements from last TA version (2019-08-28):
  - Rework tower for bulldog2 (turret scaleup Y)
  - Add new turret for scorpion, add tubes for torpedo
  - Add new color for lighting Arm (Lighting tank, Chimera, Dragon Teeth) (0.125 0.125 1 > 0.5 0.5 1)
- 
+ - Add T1 Shield for all cons T1
  Bugs:
  - Fixed cordoom1 script
  - Fixed tllfgate (the shield didn't load)
