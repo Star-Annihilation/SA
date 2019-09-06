@@ -3,11 +3,13 @@
 
 effectUnitDefs = {
  --// FUSIONS //--------------------------
+  talon_gen = {
+	{class='SimpleParticles2', options=MergeTable({pos={0,28,0}, delay=0, size=10, count=3, colormap={{0.1, 0.9, 1.0, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_gen)},
+	{class='ShieldJitter',options={life=math.huge, priority=2, pos={0,28,0}, size=6, precision=22, repeatEffect=true}},
+},
   talon_ckfus = {
 	{class='SimpleParticles2', options=MergeTable({pos={0,40,6}, delay=0, size=60, count=3, colormap={{0.1, 0.9, 1.0, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
-	{class='SimpleParticles2', options=MergeTable({pos={0,40,6}, delay=60, size=40, count=2, colormap={{0.6, 1.0, 0.70, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
 	{class='ShieldJitter',options={life=math.huge, priority=2, pos={0,40,6}, size=16, precision=22, repeatEffect=true}},
-
 },
 talon_afus = {
 	{class='SimpleParticles2', options=MergeTable({pos={0,55,10}, delay=0, size=80, count=3, colormap={{0.1, 0.9, 1.0, 0.005}, {0.2, 0.55, 0.6, 0.01}, {0.1, 0.1, 0.4, 0.005}}},sunlight_fusion)},
@@ -302,6 +304,10 @@ talon_gate = {
     {class='GroundFlash',options=groundFlashJuno},
   },
  tlljuno = {
+    {class='ShieldSphere',options=tlljunoShieldSphere},
+    {class='GroundFlash',options=groundFlashJuno},
+  },
+ talon_juno = {
     {class='ShieldSphere',options=tlljunoShieldSphere},
     {class='GroundFlash',options=groundFlashJuno},
   },

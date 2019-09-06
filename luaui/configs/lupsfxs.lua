@@ -438,18 +438,18 @@ plasmaball_fusion = {
 sunlight_fusion = {
   speed        = 0,
   speedSpread  = 0,
-  layer        = -36,
-  life         = 100,
-  lifeSpread   = 80,
+  layer        = 5,
+  life         = 120,
+  lifeSpread   = 30,
   partpos      = "0,0,0",
   rotSpeed     = 0.1,
   rotFactor    = 0.5,
   rotFactorSpread = -2.0,
   rotairdrag   = 0.99,
   rotSpread    = 360,
-  sizeExp      = -2,
-  sizeSpread   = -10,
-  sizeGrowth   = -1,
+  sizeExp      = 0.15,
+  sizeSpread   = 0.15,
+  sizeGrowth   = 0.5,
   emitVector   = {0,0,0},
   emitRotSpread = 360,
   texture      = 'bitmaps/techa_artwork/sunlight1.png',
@@ -457,6 +457,31 @@ sunlight_fusion = {
   noIconDraw = true,
   priority   = 1,
   }
+
+sunlight_gen = {
+  speed        = 0,
+  speedSpread  = 0,
+  layer        = 5,
+  life         = 120,
+  lifeSpread   = 30,
+  partpos      = "0,0,0",
+  rotSpeed     = 0.1,
+  rotFactor    = 0.5,
+  rotFactorSpread = -2.0,
+  rotairdrag   = 0.99,
+  rotSpread    = 360,
+  sizeExp      = 0.15,
+  sizeSpread   = 0.15,
+  sizeGrowth   = 0.5,
+  emitVector   = {0,0,0},
+  emitRotSpread = 360,
+  texture      = 'bitmaps/techa_artwork/sunlight1.png',
+  repeatEffect = true,
+  noIconDraw = true,
+  priority   = 1,
+  }
+
+
 ----------------------------------------------------------------------------
 -- Other -------------------------------------------------------------------
 ----------------------------------------------------------------------------
